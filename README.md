@@ -14,6 +14,7 @@
 	* Tailwind
 *  Separte css root file
 *  CSS varibale
+*  CSS Normalize
 --------------------
 
 You can get destails info of HTML & CSS basics from bellow these links
