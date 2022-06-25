@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="main-title">HTML Inputs: Cheat Sheet</h1>
+    </header>
+
+    <!-- Text -->
+    <section class="text-type">
+        <h2 class="text-title"> Text </h2>
+        <div class="content1">
+            <div class="">
+                <h3>Input Type Text</h3>
+                <input type="text" class="text" name="" value="Just Text" placeholder="Just Text">
+            </div>
+    
+            <div class="">
+                <h3>Input Type Email *</h3>
+                <input type="email" class="email" placeholder="name@mail.com" required>
+            </div>
+    
+            <div class="">
+                <h3>Input Type Password</h3>
+                <input type="password" class="password" placeholder=". . . . .">
+            </div>
+    
+            <div class="">
+                <h3>Input Type Telephone</h3>
+                <input type="tel" class="tel" placeholder="+88 016 0000 0000" pattern="[+][8801]-[0-9]{1}-[0-9]{8}">
+            </div>
+    
+            <div class="">
+                <h3>Input Type Disable</h3>
+                <input type="text" class="disabled" value="Disabled" disabled>
+            </div>
+        </div>
+
+        <div class="content2">
+            <div class="url">
+                <input type="url">
+            </div>
+
+            <div class="search">
+                <input type="search">
+            </div>
+
+            <div class="number">
+                <input type="number" min="10" max="50">
+            </div>
+
+            <div class="">
+                <input type="text" value="Read Only" readonly>
+            </div>
+        </div>
+
+        <div class="content3">
+            <div class="">
+                <input type="text" class="maxlength" maxlength="6" size="6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Options -->
+    <section class="options">
+        <div class="radio">
+            <input type="radio" value="Radio 1">
+            <input type="radio" value="Radio 2">
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" value="checkbox 1">
+            <input type="checkbox" value="checkbox 2">
+        </div>
+
+        <div class="range">
+            <input type="range">
+        </div>
+
+        <div class="color">
+            <input type="color">
+        </div>
+    </section>
+
+    <!-- Actions -->
+    <section class="actions">
+        <div class="button">
+            <input type="button" value="Button">
+        </div>
+
+        <div class="reset">
+            <input type="reset" value="Reset">
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </section>
+
+    <!-- Dates -->
+    <section class="dates">
+        <div class="date">
+            <input type="date">
+        </div>
+
+        <div class="week">
+            <input type="week">
+        </div>
+
+        <div class="submit">
+            <input type="submit" >
+        </div>
+
+        <div class="month">
+            <input type="month" >
+        </div>
+    </section>
+
+    <!-- Hidden -->
+    <section class="hidden">
+        <div class="hidden">
+            <input type="hidden">
+        </div>
+    </section>
+
+    <!-- Lavel -->
+    <section class="lavel">
+        <div class="label">
+            <label for="Lavel">
+            <input type="label">
+        </div>
+    </section>
+
+    <!-- Dropdown -->
+    <section class="dropdown">
+        <div class="dropdown">
+            <select>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- TextArea -->
+    <section class="textarea">
+        <div class="textarea">
+            <textarea name="" id="" cols="30" rows="10">TextArea</textarea>
+        </div>
+    </section>
+</body>
+</html>

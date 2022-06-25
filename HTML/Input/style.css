@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+:root{
+    --i-pad: 10px 20px;
+    --i-bdr: 1px solid black;
+    --i-fcs: none;
+    --i-fsz: 12px;
+    --i-ff: "Short Stack";
+}
+
+body{
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: "Short Stack";
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(109, 71, 0);
+    color: white;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
+
+.main-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+/*-------------- Text Type ----------------*/
+.text-type{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.text-title{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.text{
+    padding: var(--i-pad);
+    border: var(--i-bdr);
+    font-family: var(--i-ff);
+    font-size: var(--i-fs);
+}
+
+.text:focus{
+    outline: var(--i-fcs);
+}
+
+.email{
+    padding: var(--i-pad);
+    border: var(--i-bdr);
+    font-family: var(--i-ff);
+    font-size: var(--i-fs);
+}
+
+.email:focus{
+    outline: var(--i-fcs);
+}
+
+.password{
+    padding: var(--i-pad);
+    border: var(--i-bdr);
+    font-family: var(--i-ff);
+    font-size: var(--i-fs);
+}
+
+.password:focus{
+    outline: var(--i-fcs);
+}
+
+.tel{
+    padding: var(--i-pad);
+    border: var(--i-bdr);
+    font-family: var(--i-ff);
+    font-size: var(--i-fs);
+}
+
+.tel:focus{
+    outline: var(--i-fcs);
+}
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.hidden{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.label{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.textarea{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
