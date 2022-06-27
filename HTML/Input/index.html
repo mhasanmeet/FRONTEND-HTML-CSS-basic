@@ -10,138 +10,206 @@
 <body>
     
     <header class="header">
-        <h1 class="main-title">HTML Inputs: Cheat Sheet</h1>
+        <h1 class="header__title">HTML Inputs: Cheat Sheet</h1>
     </header>
 
     <!-- Text -->
     <section class="text-type">
-        <h2 class="text-title"> Text </h2>
-        <div class="content1">
-            <div class="">
-                <h3>Input Type Text</h3>
-                <input type="text" class="text" name="" value="Just Text" placeholder="Just Text">
+        <h2 class="group__title"> Text </h2>
+
+        <div class="text-type__content1">
+            <div class="text-type__text-section">
+                <h3 class="text-type__text-title">Input Type Text</h3>
+                <input type="text" class="text-type__text" name="" value="Just Text" placeholder="Just Text">
             </div>
     
-            <div class="">
-                <h3>Input Type Email *</h3>
-                <input type="email" class="email" placeholder="name@mail.com" required>
+            <div class="text-type__email-section">
+                <h3 class="text-type__email-title">Input Type Email *</h3>
+                <input type="email" class="text-type__email" placeholder="name@mail.com" required>
             </div>
     
-            <div class="">
-                <h3>Input Type Password</h3>
-                <input type="password" class="password" placeholder=". . . . .">
+            <div class="text-type__password-section">
+                <h3 class="text-type__password-title">Input Type Password</h3>
+                <input type="password" class="text-type__password" placeholder=". . . . .">
             </div>
     
-            <div class="">
-                <h3>Input Type Telephone</h3>
-                <input type="tel" class="tel" placeholder="+88 016 0000 0000" pattern="[+][8801]-[0-9]{1}-[0-9]{8}">
-            </div>
-    
-            <div class="">
-                <h3>Input Type Disable</h3>
-                <input type="text" class="disabled" value="Disabled" disabled>
+            <div class="text-type__telephone-section">
+                <h3 class="text-type__password-title">Input Type Telephone</h3>
+                <input type="tel" class="text-type__telephone" placeholder="+88 016 0000 0000" pattern="[+][8801]-[0-9]{1}-[0-9]{8}">
             </div>
         </div>
 
-        <div class="content2">
-            <div class="url">
-                <input type="url">
+        <div class="text-type__content2">
+            <div class="text-type__url-section">
+                <h3 class="text-type__url-title">Input Type url</h3>
+                <input type="url" class="text-type__url">
             </div>
 
-            <div class="search">
-                <input type="search">
+            <div class="text-type__search-section">
+                <h3 class="text-type__search-title">Input Type Search</h3>
+                <input type="search" class="text-type__search">
             </div>
 
-            <div class="number">
-                <input type="number" min="10" max="50">
+            <div class="text-type__number-section">
+                <h3 class="text-type__number-title">Input Type Number</h3>
+                <input type="number" class="text-type__number" min="10" max="50">
             </div>
 
-            <div class="">
-                <input type="text" value="Read Only" readonly>
+            <div class="text-type__readonly-section">
+                <h3 class="text-type__readonly-title">Input Type Read Only</h3>
+                <input type="text" class="text-type__readonly" value="Read Only" readonly>
             </div>
         </div>
 
-        <div class="content3">
-            <div class="">
-                <input type="text" class="maxlength" maxlength="6" size="6">
+        <div class="text-type__content3">
+
+            <div class="text-type__disable-section">
+                <h3 class="text-type__disable-title">Input Type Disable</h3>
+                <input type="text" class="text-type__disable" value="Disabled" disabled>
+            </div>
+
+            <div class="text-type__maxLength-section">
+                <h3 class="text-type__maxLength-title">Input Type Max Length</h3>
+                <input type="text" class="text-type__maxLength" maxlength="6" size="6">
             </div>
         </div>
     </section>
+
+    <hr class="section-break">
 
     <!-- Options -->
     <section class="options">
-        <div class="radio">
-            <input type="radio" value="Radio 1">
-            <input type="radio" value="Radio 2">
-        </div>
+        <h2 class="group__title"> Options </h2>
 
-        <div class="checkbox">
-            <input type="checkbox" value="checkbox 1">
-            <input type="checkbox" value="checkbox 2">
-        </div>
+        <div class="options__content1">
 
-        <div class="range">
-            <input type="range">
-        </div>
+            <div class="options__radio-section">
+                <h3 class="options__radio-title">Options Type Radio</h3>
+                
+                <div class="options__radio-group">
+                    <input type="radio" value="Radio 1" class="options__radio">
+                    <label class="options__radio-lable">Radio 1 </label>
+                </div>
 
-        <div class="color">
-            <input type="color">
+                <div class="options__radio-group">
+                    <input type="radio" value="Radio 2" class="options__radio">
+                    <label class="options__radio-lable">Radio 2 </label>
+                </div>
+            
+            </div>
+    
+            <div class="options__checkbox-section">
+                <h3 class="options__checkbox-title">Options Type Checkbox</h3>
+
+                <div class="options__checkbox-group">
+                    <input type="checkbox" value="checkbox 1" class="options__checkbox">
+                    <label class="options__radio-lable">Checkbox 1</label>
+                </div>
+
+                <div class="options__checkbox-group">
+                    <input type="checkbox" value="checkbox 2" class="options__checkbox">
+                    <label class="options__radio-lable">Checkbox 2</label>
+                </div>
+
+            </div>
+    
+            <div class="options__range-section">
+                <h3 class="options__range-title">Options Type Range</h3>
+                
+                <div class="options__range-group">
+                    <input type="range" class="options__range">
+                    <label class="options__range-lable">Select Range</label>
+                </div>
+
+            </div>
+    
+            <div class="options__color-section">
+                <h3 class="options__color-title">Options Type Color</h3>
+                
+                <div class="options__color-group">
+                    <input type="color" class="options__color">
+                    <label class="options__color-lable">Select Color</label>
+                </div>
+            </div>
         </div>
+        
     </section>
+
+    <hr class="section-break">
 
     <!-- Actions -->
     <section class="actions">
-        <div class="button">
-            <input type="button" value="Button">
-        </div>
+        <h2 class="group__title"> Actions </h2>
 
-        <div class="reset">
-            <input type="reset" value="Reset">
+        <div class="actions__content1">
+            <div class="actions__button-section">
+                <h3 class="actions__button-title">Options Type Button</h3>
+                <input type="button" value="Button" class="actions__button">
+            </div>
+    
+            <div class="actions__reset-seection">
+                <h3 class="actions__reset-title">Options Type Reset</h3>
+                <input type="reset" value="Reset" class="actions__reset">
+            </div>
+    
+            <div class="actions__submit-section">
+                <h3 class="actions__submit-title">Options Type Submit</h3>
+                <input type="submit" value="Submit" class="actions__submit">
+            </div>
         </div>
-
-        <div class="submit">
-            <input type="submit" value="Submit">
-        </div>
+        
     </section>
+
+    <hr class="section-break">
 
     <!-- Dates -->
     <section class="dates">
-        <div class="date">
-            <input type="date">
-        </div>
+        <h2 class="group__title"> Dates </h2>
 
-        <div class="week">
-            <input type="week">
-        </div>
+        <div class="dates__content">
 
-        <div class="submit">
-            <input type="submit" >
+            <div class="dates__section-date">
+                <h3 class="dates__date-title">Dates Type Day</h3>
+                <input type="date" value="2022-06-06" min="2022-06-01" max="2022-06-30" class="dates__date">
+            </div>
+    
+            <div class="dates__section-week">
+                <h3 class="dates__week-title">Dates Type Week</h3>
+                <input type="week" class="dates__week">
+            </div>
+    
+            <div class="dates__section-pattern">
+                <h3 class="dates__pattern-title">Dates Type Pattern</h3>
+                <input type="date" pattern="\d{4}-\d{2}-\d{2}" class="dates__pattern">
+            </div>
+    
+            <div class="dates__section-month">
+                <h3 class="dates__month-title">Dates Type Pattern</h3>
+                <input type="month" class="dates__month">
+            </div>
         </div>
-
-        <div class="month">
-            <input type="month" >
-        </div>
+        
     </section>
+
+    <hr class="section-break">
 
     <!-- Hidden -->
     <section class="hidden">
-        <div class="hidden">
+        <h2 class="group__title"> Input Type Hidden </h2>
+
+        <div class="hidden__section">
             <input type="hidden">
         </div>
     </section>
 
-    <!-- Lavel -->
-    <section class="lavel">
-        <div class="label">
-            <label for="Lavel">
-            <input type="label">
-        </div>
-    </section>
+    <hr class="section-break">
 
     <!-- Dropdown -->
     <section class="dropdown">
-        <div class="dropdown">
-            <select>
+        <h2 class="group__title"> Input Type Dropdown </h2>
+
+        <div class="dropdown__content">
+            <select class="dropdown__select">
                 <option value="Option 1">Option 1</option>
                 <option value="Option 2">Option 2</option>
                 <option value="Option 3">Option 3</option>
@@ -149,10 +217,13 @@
         </div>
     </section>
 
+    <hr class="section-break">
+
     <!-- TextArea -->
     <section class="textarea">
-        <div class="textarea">
-            <textarea name="" id="" cols="30" rows="10">TextArea</textarea>
+        <h2 class="group__title"> Input Type Dropdown </h2>
+        <div class="textarea__section">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your paragraph"></textarea>
         </div>
     </section>
 </body>
