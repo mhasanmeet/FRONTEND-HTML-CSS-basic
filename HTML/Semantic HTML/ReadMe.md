@@ -1,8 +1,9 @@
 # Semantic HTML
 
-### Definition: Semantic HTML means the meaningful code blocks naming for each block section. Semantic HTML is an standard way to write code blocks. 
+### Definition
+Semantic HTML means the meaningful code blocks naming for each block section. Semantic HTML is an standard way to write code blocks. 
 
-### Example of Semantic HTML coding
+Example of Semantic HTML coding
 
 ```
 <head>
@@ -35,7 +36,7 @@
 </body>
 ```
 
-### Example of Non-Semantic HTML coding
+Example of Non-Semantic HTML coding
 
 ```
 <head>
