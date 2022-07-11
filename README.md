@@ -1,23 +1,30 @@
 #  HTML Basics Covered in here
 
 ##  HTML
-*  HTML basic Typography
-*  Semantic HTML
-*  BEM (Block Element Modifier)
+* BEM structure (Block Element Modifier)
+* Form
+* HTML attributes
+* HTML elements
+* Inputs
+* HTML Typography
+* Semantic HTML
 
 ##  CSS
 *  Basic CSS
-*  SASS
-*  CSS Framework
+*  CSS Preprocessor
 	* SASS
-	* Bootstarp
+	* SCSS
+	* LESS
+	* Stylus
+*  CSS Framework
+	* Bootstrap
 	* Tailwind
-*  Separte css root file
-*  CSS varibale
+*  Separate css root filing system
+*  CSS variable
 *  CSS Normalize
 --------------------
 
-You can get destails info of HTML & CSS basics from bellow these links
+You can get details info of HTML & CSS basics from bellow these links
 
 1. [HTML Reference](https://htmlreference.io/)
 2. [CSS Reference](https://cssreference.io/)
