@@ -212,6 +212,18 @@ body{
     width: 80%;
 }
 
+/*-------------- File Input ----------------*/
+.file{
+    margin: 50px 0;
+}
+
+.file__content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 /*-------------- Options ----------------*/
 
 .options{
