@@ -7,16 +7,100 @@
     <title>HTML Attributes</title>
 </head>
 <body>
+
+    <!-- 
+        id = for unique identification of the html elements
+        class = for a group of similar identify of html elements
+    -->
+    <section>
+        <p class="class" id="identification"></p>
+    </section>
+    <hr>
+
+    <!-- 
+        there are several attribute use in html form, like
+        1. action = action attribute specifies where to send the form-data when a form is submitted. 
+        2. method = method attribute specifies how to send form-data, like POST, GET 
+        3. autocomplete = is use for automatically completed as based on browser suggestion
+        4. validate = validate data
+        5. type = there's a multiple type of input data, we have separate project folder where we discuss all about html input types
+        6. for = for attribute specifies which form element a label is related to
+        7. name = 
+        8. value = 
+        9. placeholder = 
+        10. required = 
+    -->
     <section>
         <form action="#" method="POST" autocomplete="on" validate>
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John" required><br>
+            <input type="text" id="fname" name="fname" value="John" placeholder="Input Your First Name" required><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
             <input type="submit" value="Submit">
         </form>
     </section>
-
     <hr>
+
+    <!-- 
+        src = full form is source, is use for data source for specific html elements
+        alt = full form is alternative, is use for if source is invalid then this alternative text will shown in browser
+    -->
+    <section>
+        <img src="#" alt="Image">
+    </section>
+    <hr>
+
+    <!-- 
+        controls =  is use for audio and video data controlling 
+        autoplay = automatically playing of the audio and video files 
+        muted = make the audio and video file mute in default
+        loop = replay and infinity playing of the audio and video files
+    -->
+    <section>
+        <audio controls autoplay muted>
+            <source src="./assets/audio.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+
+        <audio src="./assets/audio.mp3" controls loop></audio>
+        <br>
+
+        <video src="./assets/video.mp4" controls autoplay></video>
+    </section>
+    <hr>
+
+    <!-- 
+        dir = full form is direction, is use for language perspective
+        ltr = left to right
+        rtl = right to left
+    -->
+    <section>
+        <h1 dir="ltr">Hello World</h1>
+        <h1 dir="rtl">Hello World</h1>
+    </section>
+    <hr>
+
+    <!-- 
+        type = input type, there is many input types have, we have discuss it in separate project in "Input" folder
+        disabled =  input type can not be editable
+        minlength = minimum input length
+        maxlength = maximum input length
+        multiple = multiple file input
+    -->
+    <section>
+        <input type="text" disabled> <br> <br>
+        <input type="password" minlength="10" maxlength="12"> <br> <br>
+        <input type="file" multiple>
+    </section>
+    <hr>
+
+    <!-- 
+        href =  full form is hyper reference, is use for link building and connecting
+        target = target attribute is use for if the link is load in current tab or another tab
+    -->
+    <section>
+        <a href="https://google.com" target="_blank">Another Tab loaded</a> <br>
+        <a href="https://google.com" target="_self">Current Tab Loaded</a>
+    </section>
 </body>
 </html>
