@@ -1,13 +1,15 @@
 #  HTML Basics from my learning
 
-##  HTML
-* BEM structure (Block Element Modifier)
-* Form
-* HTML attributes
-* HTML elements
-* Inputs
-* HTML Typography
+# HTML : Hypertext markup language
+### HTML Best practice
+* BEM (Block Element Modifier)
 * Semantic HTML
+
+### HTML topics
+* HTML Form
+* HTML Attributes
+* HTML tag Elements
+* HTML Inputs
 
 ##  CSS
 *  Basic CSS
