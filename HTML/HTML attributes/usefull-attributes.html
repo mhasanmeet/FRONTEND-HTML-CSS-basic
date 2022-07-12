@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Useful HTML attributes</title>
+    <link rel="stylesheet" href="usefull-attributes.css">
 </head>
 <body>
-    <h1 style="color:red;"></h1>
+
+    <!-- 
+        download attribute: By download attribute we can let people download any file from the web.  
+    -->
+    <section>
+        <a href="./assets/file.docx" download=”file”>Download the file</a>
+    </section>
+
+    <!-- 
+        Tooltip attribute: Tooltip attribute is use for show info about a section or portion of the content  
+    -->
+    <section>
+        <h1 title="This is header title tooltip">This is Header Title</h1>
+    </section>
+
+    <!-- 
+        Content Editable: This attribute let user edit the content.
+        it's have 3 state: default, true & false
+    -->
+    <section>
+        <p contenteditable>This text can be edited by the user.</p>
+        <p contenteditable="true">This text can be edited by the user.</p>
+        <p contenteditable="false">This text can not edited by the user.</p>
+    </section>
+
+    <!-- 
+        Plain HTML Accordion: This is example of plain HTML accordion
+    -->
+    <section>
+        <details>
+            <summary>Plain HTML Accordion</summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quos maiores 
+            excepturi quidem placeat autem, porro fuga accusamus. Iste, provident?
+        </details>
+    </section>
+    
+    <!-- 
+        Lazy Loading: You can load images on-demand, popularly called lazy loading by setting the 
+        loading attribute to ‘lazy’. This is a very simple but effective optimization technique 
+        that loads only the section that is visible to the user and the other images are loaded 
+        later, as per the user’s need.
+    -->
+    <section>
+        <img src="./assets/img.png" alt="Image" loading=”lazy”>
+    </section>
 </body>
 </html>

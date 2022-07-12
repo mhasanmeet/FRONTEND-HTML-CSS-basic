@@ -1,4 +1,4 @@
-#  HTML Basics Covered in here
+#  HTML Basics from my learning
 
 ##  HTML
 * BEM structure (Block Element Modifier)

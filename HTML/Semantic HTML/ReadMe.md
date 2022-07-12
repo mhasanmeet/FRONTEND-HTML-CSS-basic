@@ -68,3 +68,4 @@ Example of Non-Semantic HTML coding
     </div>
 </body>
 ```
+* Read More about Semantic HTML - [Link](htmlreference.io/semantic/)
