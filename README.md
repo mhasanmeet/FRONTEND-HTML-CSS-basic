@@ -1,6 +1,6 @@
 #  HTML Basics from my learning
 
-# HTML : Hypertext markup language
+## HTML : Hypertext markup language
 ### HTML Best practice
 * BEM (Block Element Modifier)
 * Semantic HTML
