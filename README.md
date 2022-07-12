@@ -1,6 +1,6 @@
-#  HTML Basics from my learning
+#  HTML & CSS Basics from my learning
 
-## HTML : Hypertext markup language
+## HTML : Hypertext Markup Language
 ### HTML Best practice
 * BEM (Block Element Modifier)
 * Semantic HTML
@@ -11,19 +11,24 @@
 * HTML tag Elements
 * HTML Inputs
 
-##  CSS
-*  Basic CSS
-*  CSS Preprocessor
+##  CSS : Cascading Style Sheets
+
+### CSS Best practice
+* Separate css root filing system
+* CSS variable
+* CSS Preprocessor
 	* SASS
 	* SCSS
 	* LESS
 	* Stylus
-*  CSS Framework
+
+### CSS Topics
+* Basic CSS
+* Pseudo Code
+* CSS Framework
 	* Bootstrap
 	* Tailwind
-*  Separate css root filing system
-*  CSS variable
-*  CSS Normalize
+* CSS Normalize
 --------------------
 
 You can get details info of HTML & CSS basics from bellow these links
