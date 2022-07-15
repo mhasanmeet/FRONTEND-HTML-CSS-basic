@@ -59,6 +59,12 @@
             muted = make the audio and video file mute in default
             loop = replay and infinity playing of the audio and video files
             poster = video poster when video is not playing
+            type = file type
+            track = track is ude for subtitles for a video content
+            kind = captions/chapters/descriptions/metadata/subtitles, subtitle category
+            srclang = subtitle language
+            label = 
+
         -->
         <audio controls autoplay muted>
             <source src="./assets/audio.mp3" type="audio/mpeg">
@@ -69,6 +75,12 @@
         <br>
 
         <video src="./assets/video.mp4" controls autoplay poster="./assets/img.png"></video>
+        <br>
+
+        <video controls autoplay type="video/mp4">
+            <source src="./assets/video.mp4" >
+            <track src="./assets/subtitle_en.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
     </section>
     <hr>
 
