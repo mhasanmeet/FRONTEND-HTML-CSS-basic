@@ -5,7 +5,6 @@
 * Flexbox
 * CSS position
 * Z-index (content position)
-* 
 
 ### CSS organizing
 

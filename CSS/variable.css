@@ -1,0 +1,6 @@
+@import url(./root.css);
+
+main{
+    background-color: var(--first-color);
+    font-size: var(--fs-1);
+}
