@@ -34,6 +34,9 @@
 * CSS Normalize
 * CSS Screen Breakpoints
 * CSS Shorthands
+
+## Image, Audio & Video
+## SEO
 --------------------
 
 You can get details info of HTML & CSS basics from bellow these links

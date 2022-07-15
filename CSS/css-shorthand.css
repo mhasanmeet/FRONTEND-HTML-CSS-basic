@@ -1,4 +1,4 @@
-/* Font */
+/*------- Font --------*/
 .font{
     font-style: italic;
     font-weight: 600;
@@ -11,7 +11,7 @@
     font: italic 600 18px/1.6 Poppins;
 }
 
-/* Animation */
+/*------- Animation -------*/
 .animation{
     animation-name: blink-text;
     animation-duration: 2s;
@@ -26,7 +26,7 @@
     animation-name: blink-text 2s ease 2s infinite alternate both;
 }
 
-/*Transition*/
+/*-------Transition-------*/
 .transition{
     transition-property: color;
     transition-duration: 2s;
@@ -38,3 +38,56 @@
     transition: color 2s ease 1s;
 }
 
+/*------- Background -------*/
+.background{
+    background-color: #828288;
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.background{
+    background: #828288 url("img.png") no-repeat center center;
+}
+
+/*------- Margin & Padding-------*/
+.margin{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.margin{
+    margin: 5px 5px 5px 5px; /*top - right - bottom - left*/
+}
+
+.margin{
+    margin: 5px; /*all side 5px*/
+}
+
+.margin{
+    margin: 5px 10px 7px; /*top 5px, left+right 10px, bottom 7px*/
+}
+
+/*------- Border & Outline -------*/
+.outline{
+    outline-width: 2px;
+    outline-style: solid;
+    border-color: #939838;
+}
+
+.border{
+    border: 2px solid #939838;
+}
+
+/*------- List -------*/
+.list{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url("icon.svg");
+}
+
+.list{
+    list-style: square inside url("icon.svg");
+}
