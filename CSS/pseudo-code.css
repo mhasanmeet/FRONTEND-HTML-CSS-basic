@@ -1,0 +1,21 @@
+/*----- Make an underlying dash ------*/
+h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: bisque;
+    margin: 0.5 auto 0;
+}
+
+/*------- list marker selector coloring ----------*/
+/*
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+*/
+::marker{
+    color: red;
+}

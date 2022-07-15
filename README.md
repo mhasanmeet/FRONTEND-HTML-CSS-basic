@@ -33,6 +33,7 @@
 	* Tailwind
 * CSS Normalize
 * CSS Screen Breakpoints
+* CSS Shorthands
 --------------------
 
 You can get details info of HTML & CSS basics from bellow these links

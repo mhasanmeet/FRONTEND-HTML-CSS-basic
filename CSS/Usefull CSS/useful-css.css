@@ -1,0 +1,23 @@
+/* Column Count */
+.column-count p{
+    column-count: 3;
+}
+
+/* Sidebar Sticky */
+.sidebar-sticky{
+    font-family: Poppins;
+    font-size: 18px;
+    position: relative;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 250px minmax(10px, 1fr);
+    grid-gap: 1rem;
+}
+
+aside {
+    align-self: start;
+    position: sticky;
+    top: 0;
+}

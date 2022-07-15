@@ -1,0 +1,40 @@
+/* Font */
+.font{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Poppins;
+}
+
+.font{
+    font: italic 600 18px/1.6 Poppins;
+}
+
+/* Animation */
+.animation{
+    animation-name: blink-text;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+.animation{
+    animation-name: blink-text 2s ease 2s infinite alternate both;
+}
+
+/*Transition*/
+.transition{
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+.transition{
+    transition: color 2s ease 1s;
+}
+
