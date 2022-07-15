@@ -56,6 +56,7 @@
         autoplay = automatically playing of the audio and video files 
         muted = make the audio and video file mute in default
         loop = replay and infinity playing of the audio and video files
+        poster = video poster when video is not playing
     -->
     <section>
         <audio controls autoplay muted>
@@ -66,7 +67,7 @@
         <audio src="./assets/audio.mp3" controls loop></audio>
         <br>
 
-        <video src="./assets/video.mp4" controls autoplay></video>
+        <video src="./assets/video.mp4" controls autoplay poster="./assets/img.png"></video>
     </section>
     <hr>
 
@@ -87,11 +88,16 @@
         minlength = minimum input length
         maxlength = maximum input length
         multiple = multiple file input
+        spellcheck = true/false
+        lang =  language (any language)
     -->
     <section>
         <input type="text" disabled> <br> <br>
         <input type="password" minlength="10" maxlength="12"> <br> <br>
-        <input type="file" multiple>
+        <input type="file" multiple> <br><br>
+        <input type="file" capture="user" accept="image/*"> <br><br>
+        <input type="text" spellcheck="true" lang="en"> <br><br>
+        <input type="text" spellcheck="true" lang="bn">
     </section>
     <hr>
 
