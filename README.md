@@ -9,6 +9,9 @@
 * HTML Form
 * HTML Attributes
 * HTML tag Elements
+	* Block & inline elements
+	* meta tags
+	* self closing elements
 * HTML Inputs
 
 ##  CSS : Cascading Style Sheets
@@ -29,6 +32,7 @@
 	* Bootstrap
 	* Tailwind
 * CSS Normalize
+* CSS Screen Breakpoints
 --------------------
 
 You can get details info of HTML & CSS basics from bellow these links

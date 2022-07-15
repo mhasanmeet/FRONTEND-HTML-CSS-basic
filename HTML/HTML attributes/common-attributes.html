@@ -37,7 +37,7 @@
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value="John" placeholder="Input Your First Name" required><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe" pattern=""><br><br>
+            <input type="text" title="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"><br><br>
             <input type="submit" value="Submit">
         </form>
     </section>
@@ -48,7 +48,12 @@
             src = full form is source, is use for data source for specific html elements
             alt = full form is alternative, is use for if source is invalid then this alternative text will shown in browser
         -->
-        <img src="#" alt="Image">
+        <figure>
+            <img src="#" alt="Image description">
+            <figcaption>
+                <p>This is the caption of the images</p>
+            </figcaption>
+        </figure>
     </section>
     <hr>
 
@@ -118,9 +123,10 @@
         <!-- 
             href =  full form is hyper reference, is use for link building and connecting
             target = target attribute is use for if the link is load in current tab or another tab
+            rel = nofollow, use for SEO & no rank in google search page. Also use if there have paid link in website and distrusted content
         -->
-        <a href="https://google.com" target="_blank">Another Tab loaded</a> <br>
-        <a href="https://google.com" target="_self">Current Tab Loaded</a>
+        <a href="https://devshopbd.com" target="_blank">Another Tab loaded</a> <br>
+        <a href="https://devshopbd.com/custom" target="_self" rel="nofollow">Current Tab Loaded</a>
     </section>
 </body>
 </html>

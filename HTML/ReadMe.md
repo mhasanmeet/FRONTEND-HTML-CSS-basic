@@ -7,6 +7,9 @@
 ### HTML topics
 * HTML Form
 * HTML Attributes
-* HTML Elements
+* HTML tag Elements
+	* Block & inline elements
+	* meta tags
+	* self closing elements
 * HTML Inputs
 

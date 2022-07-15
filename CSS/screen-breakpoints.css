@@ -1,13 +1,24 @@
+
+/*===== Extra Small Feature Phone Screen =====*/
 @media screen and (max-width: 320px) { }
 
+/*===== Mobile Devices Screen =====*/
 @media screen and (max-width: 480px) { }
 
+/*===== Tablet Screen =====*/
 @media screen and (max-width: 600px) { }
 
+/*===== Notebook Size Standard Screen =====*/
 @media screen and (max-width: 768px) { }
 
+/*===== Notebook Size Large Screen =====*/
 @media screen and (max-width: 900px) { }
 
+/*===== Large Screen =====*/
 @media screen and (max-width: 1024px) { }
 
+/*===== Medium Large Screen =====*/
 @media screen and (max-width: 1200px) { }
+
+/*===== Extra Large Screen =====*/
+@media screen and (max-width: 1920px) { }
