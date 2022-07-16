@@ -1,3 +1,10 @@
+.title-center{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 /* Column Count */
 .column-count p{
     column-count: 3;
