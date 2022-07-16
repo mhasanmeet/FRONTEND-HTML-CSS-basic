@@ -8,6 +8,7 @@
 
 ### CSS organizing
 
+```
 css
 |
 |---base
@@ -42,5 +43,5 @@ css
 |    |----contact.css
 |
 |----main.css
-
+```
 
