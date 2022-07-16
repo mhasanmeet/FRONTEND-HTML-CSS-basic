@@ -12,7 +12,7 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: 250px minmax(10px, 1fr);
+    grid-template-columns: 750px minmax(10px, 1fr);
     grid-gap: 1rem;
 }
 
@@ -20,4 +20,29 @@ aside {
     align-self: start;
     position: sticky;
     top: 0;
+}
+
+/* Truncate Line */
+.truncate-section{
+    width: 100%;
+}
+.truncate {
+    width: 20%;
+    font-size: 20px;
+    margin: 20px auto;
+    background-color: rgb(213, 214, 255);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(38, 39, 61);
+    font-family: Verdana;
+    border: 2px solid rgb(38, 39, 61);
+    line-height: 1.9;
+
+    /* Truncate CSS */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    /* Truncate Line number */
+    -webkit-line-clamp: 5;
 }
