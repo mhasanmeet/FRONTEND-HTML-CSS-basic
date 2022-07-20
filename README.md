@@ -1,11 +1,18 @@
-#  HTML & CSS Basics from my learning
+#  Frontend HTML & CSS Basics from my learning
 
 ## HTML : Hypertext Markup Language
-### HTML Best practice
+
+<details>
+  <summary>HTML Best practice</summary>
+  
 * BEM (Block Element Modifier)
 * Semantic HTML
 
-### HTML topics
+</details>
+
+<details>
+  <summary>HTML topics</summary>
+
 * HTML Form
 * HTML Attributes
 * HTML tag Elements
@@ -13,10 +20,14 @@
 	* meta tags
 	* self closing elements
 * HTML Inputs
+	
+</details>
 
 ##  CSS : Cascading Style Sheets
 
-### CSS Best practice
+<details>
+  <summary>CSS Best practice</summary>
+
 * Separate css root filing system
 * CSS variable
 * CSS Preprocessor
@@ -25,7 +36,11 @@
 	* LESS
 	* Stylus
 
-### CSS Topics
+</details>
+
+<details>
+  <summary>CSS Topics</summary>
+
 * Basic CSS
 * Pseudo Code
 * CSS Framework
@@ -34,6 +49,8 @@
 * CSS Normalize
 * CSS Screen Breakpoints
 * CSS Shorthands
+
+</details>
 
 ## Image, Audio & Video
 ## SEO
