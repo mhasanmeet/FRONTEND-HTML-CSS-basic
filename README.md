@@ -52,6 +52,8 @@
 
 </details>
 
+## Web Accessibility
+
 ## Image, Audio & Video
 ## SEO
 
