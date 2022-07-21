@@ -7,6 +7,7 @@
   
 * BEM (Block Element Modifier)
 * Semantic HTML
+* HTML Best practice by Kyo Nagashima, check [HTML Best Practice](https://github.com/hail2u/html-best-practices)
 
 </details>
 
