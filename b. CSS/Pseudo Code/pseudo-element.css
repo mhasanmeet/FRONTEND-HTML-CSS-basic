@@ -1,13 +1,4 @@
-/* 
-
-    CSS Pseudo Code
-    -------
-    1. Pseudo Class
-    2. Pseudo element
-
-*/
-
-/*----- Make an underlying dash (Pseudo element)  ------*/
+/*----- Make an underlying dash  ------*/
 h1::after{
     content: "";
     display: block;
@@ -17,7 +8,32 @@ h1::after{
     margin: 0.5 auto 0;
 }
 
-/*------- list marker selector coloring (Pseudo element) ----------*/
+/*------- First Character Styling ----------*/
+
+p::first-letter{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+/*------- First Line Styling ----------*/
+
+p::first-line{
+    color: blue;
+    float: left;
+    font-size: 2.6em;
+    font-weight: bold;
+    line-height: 1;
+    margin-inline-end: 0.2rem;
+}
+
+/*------- The ::selection pseudo-element allows you to style how selected text looks. -------*/
+
+p::selection {
+    background: green;
+    color: white;
+}
+
+/*------- list marker selector coloring ----------*/
 /*
     <ul>
         <li>A</li>
