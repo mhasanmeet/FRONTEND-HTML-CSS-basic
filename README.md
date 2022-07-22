@@ -26,10 +26,6 @@
 
 ###  CSS : Cascading Style Sheets
 
-<details>
-  <summary><summary>
-
-</details>
 
 ### Web Accessibility
 ### Folder Structure
