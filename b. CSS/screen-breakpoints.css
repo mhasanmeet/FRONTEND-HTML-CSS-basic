@@ -1,4 +1,11 @@
 
+/*
+
+    Breakpoints of the screen size. Media Queries, use for screen breakpoints based on screen size 
+    for responsiveness.
+
+*/
+
 /*===== Extra Small Feature Phone Screen =====*/
 @media screen and (max-width: 320px) { }
 

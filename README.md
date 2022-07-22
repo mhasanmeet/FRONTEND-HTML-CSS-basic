@@ -64,3 +64,4 @@ You can get details info of HTML & CSS basics from bellow these links
 3. [w3school HTML](https://www.w3schools.com/html/default.asp) 
 4. [w3school CSS](https://www.w3schools.com/css/default.asp) &
 5. [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+6. [JS Bangladesh, SR Setu](https://www.youtube.com/playlist?list=PL4iFnndHldugVWLTCHxJPhvKxJPDeYIGa)

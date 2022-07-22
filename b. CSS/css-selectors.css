@@ -1,0 +1,50 @@
+/* 
+    CSS Selectors
+    --------
+    1. Universal Selectors
+    2. Tag Selectors
+    3. Class Selectors
+    4. Id Selectors
+    5. Attribute Selectors 
+
+*/
+
+/* Universal Selectors*/
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tag Selectors*/
+h1{
+    font-size: 20px;
+}
+
+p{
+    font-family: Poppins;
+}
+
+/* Class Selectors*/
+.className{
+    display: flex;
+    justify-content: center;
+}
+
+/* ID Selectors*/
+#idName{
+    display: flex;
+    justify-content: center;
+}
+
+/* Attribute Selectors*/
+[type]{
+    width: 20px;
+    height: 8px;
+    font-size: 14px;
+}
+
+[type="submit"]{
+    width: 20px;
+    height: 8px;
+    font-size: 14px;
+}

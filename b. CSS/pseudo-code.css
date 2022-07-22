@@ -1,4 +1,13 @@
-/*----- Make an underlying dash ------*/
+/* 
+
+    CSS Pseudo Code
+    -------
+    1. Pseudo Class
+    2. Pseudo element
+
+*/
+
+/*----- Make an underlying dash (Pseudo element)  ------*/
 h1::after{
     content: "";
     display: block;
@@ -8,7 +17,7 @@ h1::after{
     margin: 0.5 auto 0;
 }
 
-/*------- list marker selector coloring ----------*/
+/*------- list marker selector coloring (Pseudo element) ----------*/
 /*
     <ul>
         <li>A</li>

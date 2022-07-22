@@ -1,10 +1,15 @@
-# CSS : Cascading Style Sheet
+## CSS : Cascading Style Sheet
 
 ### CSS Important Topics should be clear as much as possible
 
+* CSS Execution Order
 * Flexbox
 * CSS position
+* Margin, Padding
 * Z-index (content position)
+* CSS Combinators
+* CSS Shadows
+* CSS function
 
 ### CSS organizing
 
@@ -45,3 +50,7 @@ css
 |----main.css
 ```
 
+----
+Learn More about css
+
+1. [Google Web Dev](https://web.dev/learn/css/)
