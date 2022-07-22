@@ -5,7 +5,7 @@ CSS Unit are determines the size of a property of an element or its content
 1. **Absolute Units**: Units that are "absolute" are the same size regardless of the parent element or window size.
 
 | Absolute Units | Name | Equivalent to|
-|-|-|
+|-|-|-|
 |cm| Centimeters |1cm = 96px/2.54|
 |mm|Millimeters|1mm = 1/10th of 1cm|
 |Q|Quarter-millimeters|1Q = 1/40th of 1cm|
