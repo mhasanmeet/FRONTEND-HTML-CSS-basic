@@ -1,6 +1,6 @@
-#  Frontend HTML & CSS Basics from my learning
+##  Frontend HTML & CSS Basics from my learning
 
-## HTML : Hypertext Markup Language
+### HTML : Hypertext Markup Language
 
 <details>
   <summary>HTML Best practice</summary>
@@ -24,7 +24,7 @@
 	
 </details>
 
-##  CSS : Cascading Style Sheets
+###  CSS : Cascading Style Sheets
 
 <details>
   <summary>CSS Best practice</summary>
@@ -53,12 +53,9 @@
 
 </details>
 
-## Web Accessibility
-
-## Image, Audio & Video
-## SEO
-
---------------------
+### Web Accessibility
+### Folder Structure
+### Boilerplate
 
 You can get details info of HTML & CSS basics from bellow these links
 
