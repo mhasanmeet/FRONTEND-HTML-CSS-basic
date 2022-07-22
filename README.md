@@ -77,6 +77,8 @@
 
 ### Web Accessibility
 ### Folder Structure
+
+1. <a href="https://github.com/mhasanmeet/FRONTEND-HTML-CSS-basic/files/9166774/a.HTM-CSS-Basic.zip"> Download a. HTML & CSS Basic ↓</a>
 ### Boilerplate
 
 You can get details info of HTML & CSS basics from bellow these links
