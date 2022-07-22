@@ -1,13 +1,17 @@
 ## CSS : Cascading Style Sheet
 
-### CSS Important Topics should be clear as much as possible
+### The Important Cascade Algorithm
 
 * CSS Execution Order
-* Flexbox
-* CSS position
-* Margin, Padding
-* Z-index (content position)
 * CSS Combinators
+* CSS Inheritance
+
+### The Important Cascade Topics
+
+* CSS position
+* Flexbox
+* Z-index (content position)
+* Margin, Padding
 * CSS Shadows
 * CSS function
 

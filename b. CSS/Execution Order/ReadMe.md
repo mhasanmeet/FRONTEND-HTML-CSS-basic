@@ -5,7 +5,7 @@ the css behavior and basic execution rule.
 
 ### Cascade Order (From Google www.Web.dev/learn/css)
 
-CSS stands for Cascading Stylesheets. The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element
+CSS stands for Cascading Stylesheets. The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element.
 
 **The cascade algorithm is split into 4 distinct stages**
 
@@ -25,7 +25,7 @@ The CSS that you write isn't the only CSS applied to a page. The cascade takes i
 5. Local user styles !important. Any !important that come from the operating system level, or browser extension level CSS.
 6. User agent !important. Any !important that are defined in the default CSS, provided by the browser.
 
-![Origin of CSS](./orign-of-css.svg)
+![Origin of CSS](./origin-of-css.svg)
 
 ### Specificity Order (Execution Priority Order)
 
