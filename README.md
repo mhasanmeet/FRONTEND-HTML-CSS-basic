@@ -27,29 +27,53 @@
 ###  CSS : Cascading Style Sheets
 
 <details>
-  <summary>CSS Best practice</summary>
+  <summary>The Important Cascade Algorithm<summary>
 
-* Separate css root filing system
-* CSS variable
-* CSS Preprocessor
-	* SASS
-	* SCSS
-	* LESS
-	* Stylus
+* CSS Execution Order
+* CSS Combinators
+* CSS Inheritance
 
 </details>
 
 <details>
-  <summary>CSS Topics</summary>
+  <summary>Important Topics</summary>
 
-* Basic CSS
-* Pseudo Code
+* CSS Selectors
+* CSS position
+* Flexbox
+* Z-index (content position)
+* Margin, Padding
+* Overflow
+* CSS Shadows
+* CSS function
+
+</details>
+
+<details>
+  <summary>Topics for Efficient CSS coding <summary>
+
+* CSS Shorthands
+* CSS Pseudo Code (Class & Elements)
+* CSS custom coding: CSS root
+* CSS Custom Coding: CSS variable
+* CSS Breakpoints
+* Sizing units
+
+</details>
+
+</details>
+
+<details>
+  <summary>More to cover</summary>
+
+* CSS Preprocessor
+    * SCSS
+	* LESS
 * CSS Framework
 	* Bootstrap
 	* Tailwind
 * CSS Normalize
-* CSS Screen Breakpoints
-* CSS Shorthands
+* CSS in JS
 
 </details>
 
