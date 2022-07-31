@@ -1,5 +1,6 @@
-## 𝗖𝗦𝗦 𝗨𝗻𝗶𝘁𝘀 (From Google www.Web.dev/learn/css)
+## CSS Units
 
+### Size Units
 CSS Unit are determines the size of a property of an element or its content
 
 1. **Absolute Units**: Units that are "absolute" are the same size regardless of the parent element or window size.
@@ -43,5 +44,4 @@ div{
 }
 ```
 
-
-
+### COlor Units
