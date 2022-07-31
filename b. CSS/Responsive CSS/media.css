@@ -1,0 +1,46 @@
+
+
+/*Media screen position Rule (landscape & Portrait) */
+@media (orientation: landscape){
+    body{
+        background: pink;
+    }
+}
+
+@media (orientation: portrait){
+    body{
+        background-color: lightblue;
+    }
+}
+
+/*Screen Display Mode with Media Rule*/
+@media (display-mode: fullscreen){
+    body{
+        background: pink;
+    }
+}
+
+@media (display-mode: browser){
+    body{
+        background: pink;
+    }
+}
+
+@media (display-mode: minimal-ui){
+    body{
+        background: pink;
+    }
+}
+
+/*Screen color mode based on OS (Computer Dark mode & Computer Light mode*/
+@media (prefers-color-scheme: dark) {
+    body{
+        background: pink;
+    }
+}
+  
+@media (prefers-color-scheme: light) {
+    body{
+        background: pink;
+    }
+}
