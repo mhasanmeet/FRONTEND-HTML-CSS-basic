@@ -21,8 +21,10 @@
 
 * CSS Shorthands
 * CSS Pseudo Code (Class & Elements)
-* CSS custom coding: CSS root
-* CSS Custom Coding: CSS variable
+* CSS custom Properties: CSS root
+* CSS Custom Properties: CSS variable
+* CSS Custom Properties: CSS Reset
+* CSS Custom Properties: normalize.css
 * CSS Breakpoints
 * Sizing units
 
