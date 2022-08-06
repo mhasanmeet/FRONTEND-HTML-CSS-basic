@@ -1,0 +1,57 @@
+/* Basic CSS */
+body{
+    background: lightblue;
+    display: inline-block;
+}
+
+.container{
+    background: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+.container div{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid lightsalmon;
+}
+
+/* CSS Grid */
+
+.container{
+    /* Initiate Grid */
+    display: grid;
+
+    /* Initiate 2 Column */
+    /* grid-template-columns: 100px 100px; */
+
+    /* Initiate 3 Column */
+    /* grid-template-columns: 100px 100px 100px; */
+
+    /* Initiate 3 Column */
+    /* grid-template-columns: 100px auto 100px; */
+
+    /* Initiate Rows */
+    /* grid-template-rows: 100px 100px; */
+
+    /*
+        grid-column-gap
+        grid-row-gap
+        grid-gap
+    */
+
+    /* Make grid column in 1 fraction*/
+    /* grid-template-columns: 1fr; */
+
+    /* Make grid column in 3 fraction*/
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    /* Make it shortcut*/
+    /* grid-template-columns: repeat(3, 1fr); */
+
+
+    /* grid-template-columns: 1fr 8fr; */
+
+}
+
+
+
