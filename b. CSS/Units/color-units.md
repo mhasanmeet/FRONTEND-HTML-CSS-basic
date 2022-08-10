@@ -14,7 +14,7 @@ hsl(hue, saturation, lightness)
 **Lightness** = Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white
 
 ### Use of hsl color
-```
+```css
 filter: saturate(0) brightness(0.3);
 color: hsl(285 65% 22%);
 color: hsl(285, 65%, 22%);
@@ -23,3 +23,5 @@ color: hsl(285, 65%, 22%);
 ### HEX color
 ### RGB color
 ### RGBA color
+
+### A smart Shadow Generator [Link](https://www.joshwcomeau.com/shadow-palette/)

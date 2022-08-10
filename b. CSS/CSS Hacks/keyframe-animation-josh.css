@@ -1,0 +1,41 @@
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
+
+@keyframes fancy-spin {
+    0% {
+      transform: rotate(0turn) scale(1);
+    }
+    25% {
+      transform: rotate(1turn) scale(1);
+    }
+    50% {
+      transform: rotate(1turn) scale(1.5);
+    }
+    75% {
+      transform: rotate(0turn) scale(1.5);
+    }
+    100% {
+      transform: rotate(0turn) scale(1);
+    }
+}
+
+/* Animation Side In */
+.class {
+    animation: slide-in 1000ms;
+}
+
+/* Animation drop in */
+.class {
+    animation: drop-in 1000ms;
+}
+
+/* Animation spin */
+.class {
+    animation: spin 1000ms;
+}
