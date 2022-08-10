@@ -93,3 +93,6 @@ You can get details info of HTML & CSS basics from bellow these links
 4. [w3school CSS](https://www.w3schools.com/css/default.asp) &
 5. [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 6. [JS Bangladesh, SR Setu](https://www.youtube.com/playlist?list=PL4iFnndHldugVWLTCHxJPhvKxJPDeYIGa)
+7. [Joshw Comeau's CSS Hacks Blog Posts](https://www.joshwcomeau.com/)
+8. [Google's Web Dev Course and Doc](https://web.dev/)
+9. [CSS Tricks](https://css-tricks.com/)

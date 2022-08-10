@@ -1,0 +1,102 @@
+@import url(from-family-import);
+
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+    /* colors */
+    --color-dark: 230 35% 7%;
+    --color-light: 231 77% 90%;
+    --color-white: 0 0% 100%;
+
+    /* font-sizes from joshwcomeau*/
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.3125rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2.652rem;
+    --font-size-4xl: 4rem;
+    
+    /* font-families */
+    --font-bellefair: "Bellefair", serif;
+    --font-condensed: "Barlow Condensed", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+
+/* ----------------------------------*/
+/* Design System from Kevin Powell   */
+/* ----------------------------------*/ 
+
+/* colors */
+.bg-dark { background-color: hsl( var(--color-dark) );}
+.bg-accent { background-color: hsl( var(--color-light) );}
+.bg-white { background-color: hsl( var( --color-white) );}
+
+.text-dark { color: hsl( var(--color-dark) );}
+.text-accent { color: hsl( var(--color-light) );}
+.text-white { color: hsl( var(--color-white) );}
+
+/* typography */
+.ff-serif { font-family: var(--font-poppins); }
+
+/* letter spacing */
+.letter-spacing-1 { letter-spacing: 4.75px; } 
+.letter-spacing-2 { letter-spacing: 2.7px; } 
+.letter-spacing-3 { letter-spacing: 2.35px; } 
+
+/* uppercase */
+.uppercase { text-transform: uppercase; }
+
+/* font size */
+.fs-200 { font-size: var(--font-size-xs); }
+.fs-300 { font-size: var(--font-size-sm); }
+.fs-400 { font-size: var(--font-size-md); }
+.fs-500 { font-size: var(--font-size-lg); }
+.fs-600 { font-size: var(--font-size-xl); }
+.fs-700 { font-size: var(--font-size-2xl); }
+.fs-800 { font-size: var(--font-size-3xl); }
+.fs-900 { font-size: var(--font-size-4xl); }
+
+/* line height */
+.fs-900,
+.fs-800,
+.fs-700,
+.fs-600 {
+    line-height: 1.1;
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */ 
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.container {
+    padding-inline: 2em;
+    margin-inline: auto;
+    max-width: 60rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}

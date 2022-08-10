@@ -43,5 +43,59 @@ div{
     transform: rotate(60deg);
 }
 ```
+## CSS font's size issue solved by [Joshw Comeau](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/) 
+### What is root font size? 
+
+> The root font size is 16px
+
+* Equal pixel value to Ram value
+
+|Pixel Value (PX)|Rem Value|
+|-|-|
+|14px| 0.875rem|
+|15px| 0.9375rem|
+|16px| 1rem|
+|17px| 1.0625rem|
+|18px| 1.125rem|
+|19px| 1.1875rem|
+|20px| 1.25rem|
+|21px| 1.3125rem|
+
+* set in css variable for font
+
+```css
+
+html {
+  --14px: 0.875rem;
+  --15px: 0.9375rem;
+  --16px: 1rem;
+  --17px: 1.0625rem;
+  --18px: 1.125rem;
+  --19px: 1.1875rem;
+  --20px: 1.25rem;
+  --21px: 1.3125rem;
+}
+
+```
+
+or
+
+```css
+
+html {
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.3125rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2.652rem;
+  --font-size-4xl: 4rem;
+}
+
+```
+
+
+
 
 ### COlor Units
