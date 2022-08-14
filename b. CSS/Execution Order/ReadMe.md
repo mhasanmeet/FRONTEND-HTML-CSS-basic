@@ -25,7 +25,7 @@ The CSS that you write isn't the only CSS applied to a page. The cascade takes i
 5. Local user styles !important. Any !important that come from the operating system level, or browser extension level CSS.
 6. User agent !important. Any !important that are defined in the default CSS, provided by the browser.
 
-![Origin of CSS](./origin-of-css.svg)
+![Origin of CSS](./Images/origin-of-css.svg)
 
 ### Specificity Order (Execution Priority Order)
 
@@ -37,7 +37,7 @@ The CSS that you write isn't the only CSS applied to a page. The cascade takes i
 
 1. !important -- Avoiding and overriding, it is use to overriding css code, top level execution Priority
 
-![specificity](./visualizing-specificity.svg)
+![specificity](./Images/visualizing-specificity.svg)
 
 ### Importance
 
