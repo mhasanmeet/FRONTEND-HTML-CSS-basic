@@ -1,6 +1,6 @@
 ## Web Responsiveness
 
-> <font color="green">💡 Suggested Course (free) </font> — [Conquering Responsive Layouts](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts)
+> 💡 Suggested Course (free) — [Conquering Responsive Layouts](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts)
 
 HTML is default web responsive, until we use CSS. Yeah, this is truth. Maybe it is look not stylish but it will show responsive behavior until we do custom css coding. 
 
