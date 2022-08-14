@@ -84,3 +84,8 @@ css
 Learn More about css
 
 1. [Google Web Dev](https://web.dev/learn/css/)
+2. [Kevin Powell YT](https://www.youtube.com/kepowob)
+3. [CSS Reference](https://cssreference.io/)
+4. [w3school CSS](https://www.w3schools.com/css/default.asp)
+5. [Joshw Comeau's CSS Hacks Blog Posts](https://www.joshwcomeau.com/)
+6. [CSS Tricks](https://css-tricks.com/)

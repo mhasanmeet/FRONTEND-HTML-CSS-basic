@@ -3,7 +3,7 @@
 /* Custom properties   */
 /* ------------------- */
 
-:root {
+:root { /* root is actually a pseudo class element*/
 
     /* colors */
     --clr-dark: 230 35% 7%;

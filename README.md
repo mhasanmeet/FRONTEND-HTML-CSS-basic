@@ -85,14 +85,20 @@
 1. <a href="https://github.com/mhasanmeet/FRONTEND-HTML-CSS-basic/files/9166774/a.HTM-CSS-Basic.zip"> Download a. HTML & CSS Basic ↓</a>
 ### Boilerplate
 
+### Resources 
+
 You can get details info of HTML & CSS basics from bellow these links
 
 1. [HTML Reference](https://htmlreference.io/)
 2. [CSS Reference](https://cssreference.io/)
 3. [w3school HTML](https://www.w3schools.com/html/default.asp) 
-4. [w3school CSS](https://www.w3schools.com/css/default.asp) &
+4. [w3school CSS](https://www.w3schools.com/css/default.asp)
 5. [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 6. [JS Bangladesh, SR Setu](https://www.youtube.com/playlist?list=PL4iFnndHldugVWLTCHxJPhvKxJPDeYIGa)
 7. [Joshw Comeau's CSS Hacks Blog Posts](https://www.joshwcomeau.com/)
 8. [Google's Web Dev Course and Doc](https://web.dev/)
 9. [CSS Tricks](https://css-tricks.com/)
+
+### Practice Site
+
+1. [Frontend Mentor](https://www.frontendmentor.io/)

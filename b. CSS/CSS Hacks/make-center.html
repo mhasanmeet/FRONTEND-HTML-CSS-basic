@@ -2,10 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make Content Center</title>
-    <link rel="stylesheet" href="center.css">
+    <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .title{
+            text-align: center;
+        }
+
+        /* Make center By Transform Translate*/
+        .center1{
+            background: lightsalmon;
+            height: 100vh;
+        }
+
+        .center1__content{
+            background: lightcyan;
+            padding: 20px;
+            width: 20%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Make center By Flexbox*/
+        .center2{
+            background: lightblue;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center2__content{
+            width: 20%;
+            background-color: azure;
+            padding: 20px;
+        }
+
+        /* Make center By Grid*/
+        .center3{
+            background: lightpink;
+            height: 100vh;
+            display: grid;
+            place-content: center;
+        }
+
+        .center3__content{
+            display: grid;
+            height: 100px;
+            width: 500px;
+            place-content: center;
+            background-color: azure;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <!-- make things center -->

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Element Marker</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Poppins, sans-serif;
+            width: 80vw;
+            margin: auto;
+            background: lightgrey;
+            font-size: 2rem;
+        }
+
+        .marker ::marker{
+            content: '✔ ';
+            color: blue;
+            font-size: 3rem;
+            font-weight: 700;
+            transition: .5s;
+        }
+
+        .marker :hover::marker{
+            color: red;
+            content: '❌ ';
+            transition: .5s;
+        }
+    </style>
+</head>
+<body>
+    <section class="marker">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, libero est quibusdam 
+            dignissimos reiciendis, enim amet ipsa assumenda ea recusandae magni eveniet 
+            voluptas quidem dolorem, voluptate laudantium natus nihil similique.
+        </p>
+
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </section>
+</body>
+</html>
