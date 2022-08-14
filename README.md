@@ -102,3 +102,7 @@ You can get details info of HTML & CSS basics from bellow these links
 ### Practice Site
 
 1. [Frontend Mentor](https://www.frontendmentor.io/)
+
+### Suggested Book 
+
+1. [Debugging CSS](https://debuggingcss.com/)
