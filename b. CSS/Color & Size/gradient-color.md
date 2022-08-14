@@ -1,7 +1,5 @@
 ## CSS Gradient Color
 
-### radial-gradient
-
 * Radial Gradient at center
 
 ```css
