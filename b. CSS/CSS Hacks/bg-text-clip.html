@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Text Clip</title>
+    <style>
+        .text{
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Poppins;
+            font-size: 10rem;
+
+            /*Background Text Clip*/
+            background-image: url(./images/blue-image.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">Hello World</h1>
+</body>
+</html>
