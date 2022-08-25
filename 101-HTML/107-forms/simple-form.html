@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            font-family: poppins;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form{
+            height: 100vh;
+            width: 20%;
+            margin-inline: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .form-group{
+            display: flex;
+            gap: .5rem;
+            flex-direction: column;
+        }
+
+        input{
+            width: 60%;
+            height: 2rem;
+            font-size: .8rem;
+            color: rgb(131, 131, 131);
+        }
+
+        small{
+            color: rgb(165, 165, 165);
+        }
+
+        .btn{
+            width: 15rem;
+            height: 2.5rem;
+            border: none;
+            background: lightblue;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#">
+        <div class="form-group">
+            <label for="text"> Name</label>
+            <input type="text" name="name" required value="Mahmudul Hasan" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email"> Email</label>
+            <input type="email" name="email" required value="email@mail.com" placeholder="Enter Your email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
+        </div>
+
+        <div class="form-group">
+            <label for="password"> Password</label>
+            <input type="text" name="password" required placeholder="Enter Your password" pattern="[a-zA-Z0-9]{8,}" title="Must be at least 8 characters">
+            <small class="input-hint"> Must be at least 8 characters</small>
+        </div>
+
+        <button class="btn">Submit</button>
+    </form>
+
+</body>
+</html>
