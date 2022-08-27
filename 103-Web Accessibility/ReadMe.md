@@ -16,3 +16,7 @@ Web Accessibility is one of the most important feature to have in a website. Web
 1. More Web Accessibility topics from w3school - [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php)
 
 2. Website about web accessibility articles - [a11ymatters](https://www.a11ymatters.com/) 
+
+3. Accessibility Developer Guide - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
+
+4. Web Dev Accessibility - [Web Accessibility](https://web.dev/learn/design/accessibility/)
