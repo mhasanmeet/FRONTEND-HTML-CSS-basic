@@ -1,16 +1,47 @@
 
-/* ------------------- */
-/* Custom properties   */
-/* ------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-:root { /* root is actually a pseudo class element*/
+:root{
 
-    /* colors */
-    --clr-dark: 230 35% 7%;
-    --clr-light: 231 77% 90%;
-    --clr-white: 0 0% 100%;
+    /* Color */
+    --color-white-primary: hsl(0, 0%, 100%);
+    --color-white-secondary: hsl(0, 0%, 90%);
+    --color-black-primary: hsl(0, 0%, 18%);
+    --color-black-secondary: hsl(0, 0%, 28%);
+    --color-gray-primary: hsl(220, 9%, 46%);
+    --color-gray-secondary: hsl(216, 12%, 84%);
+    --color-pink-primary: hsl(280, 80%, 75%);
+    --color-pink-secondary: hsl(280, 30%, 75%);
+    --color-purple-primary: hsl(240, 95%, 80%);
+    --color-purple-secondary: hsl(240, 90%, 90%);
+    --color-blue-primary: hsl(240, 50%, 50%);
+    --color-blue-secondary: hsl(240, 80%, 70%);
+    --color-red-primary: hsl(0, 85%, 55%);
+    --color-red-secondary: hsl(0, 90%, 75%);
+    --color-yellow-primary: hsl(45, 95%, 55%);
+    --color-yellow-secondary: hsl(45, 80%, 75%);
+    --color-green-primary: hsl(115, 70%, 45%);
+    --color-green-secondary: hsl(98, 80%, 75%);
 
-    /* font-sizes from joshwcomeau*/
+    /* box Shadow */
+    --box-shadow-1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    --box-shadow-2: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    --box-shadow-3: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    /* Gradient-color */
+    --linear-gradient: linear-gradient(90deg, hsl(240, 90%, 90%) 0%, hsl(45, 80%, 75%) 100%);
+
+    /* font */
+    --font-jakarta: "Plus Jakarta Sans";
+
+    /* font weight */
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+
+    /* font sizes */
     --font-size-xs: 0.75rem;
     --font-size-sm: 0.875rem;
     --font-size-md: 1rem;
@@ -19,10 +50,114 @@
     --font-size-2xl: 1.5rem;
     --font-size-3xl: 2.652rem;
     --font-size-4xl: 4rem;
-    
-    /* font-families */
-    --ff-serif: "Bellefair", serif;
-    --ff-sans-cond: "Barlow Condensed", sans-serif;
-    --ff-sans-normal: "Barlow", sans-serif;
 }
+
+/* ----------------------------------*/
+/* Design System                     */
+/* ----------------------------------*/ 
+
+/* colors */
+.bg-dark { background-color: var(--color-black-secondary); }
+.bg-light { background-color: var(--color-white-secondary); }
+.bg-white {background-color: var(--color-white-primary); }
+
+.text-dark { color: var(--color-black-primary); }
+.text-white { color: var(--color-white-secondary); }
+
+/*typography*/
+.ff-jakarta { font-family: var(--font-jakarta); }
+
+/* letter spacing */
+.letter-spacing-1 { letter-spacing: 2.35px; }
+.letter-spacing-2 { letter-spacing: 2.7px; } 
+.letter-spacing-3 { letter-spacing: 4.75px; } 
+
+/* uppercase */
+.uppercase { text-transform: uppercase; }
+
+/* font size */
+.fs-200 { font-size: var(--font-size-xs); }
+.fs-300 { font-size: var(--font-size-sm); }
+.fs-400 { font-size: var(--font-size-md); }
+.fs-500 { font-size: var(--font-size-lg); }
+.fs-600 { font-size: var(--font-size-xl); }
+.fs-700 { font-size: var(--font-size-2xl); }
+.fs-800 { font-size: var(--font-size-3xl); }
+.fs-900 { font-size: var(--font-size-4xl); }
+
+/* font weight */
+.fw-700 { font-weight: var(--fw-700); }
+.fw-600 { font-weight: var(--fw-600); }
+.fw-500 { font-weight: var(--fw-500); }
+.fw-400 { font-weight: var(--fw-400); }
+.fw-300 { font-weight: var(--fw-300); }
+
+/* line height */
+.fs-900,
+.fs-800,
+.fs-700,
+.fs-600 {
+    line-height: 1.5;
+}
+
+.fs-500,
+.fs-400,
+.fs-300,
+.fs-200 {
+    line-height: 1.5;
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */ 
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.hidden{
+    display: none;
+}
+
+.box-shadow-sm { box-shadow: var( --box-shadow-1); }
+.box-shadow-md { box-shadow: var( --box-shadow-2); }
+.box-shadow-lg { box-shadow: var( --box-shadow-3); }
+
+.linear-gradient { background: var(--linear-gradient); }
+
+
+/* ----------------------- */
+/* Reuseable Component     */
+/* ----------------------- */ 
+.container {
+    max-width: 80%;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+.btn-md{
+    /* width: fit-content; */
+    width: 9rem;
+    height: 2.5rem;
+    border: 1px solid var(--color-black-secondary);
+    border-radius: 4rem;
+    font-size: var(--font-size-md);
+    cursor: pointer;
+}
+
+.btn-sm{
+    height: 2rem;
+    width: 7rem;
+    border: .1px solid var(--color-black-secondary);
+    border-radius: 2rem;
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+}
+
+/* ----------------------- */
+/* Browser Scroll          */
+/* ----------------------- */ 
 
