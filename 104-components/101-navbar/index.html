@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 100vh;
+            background: hsl(0, 0%, 90%);
+        }
+        .container{
+            width: 70%;
+            margin: 1.5rem auto;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main-navigation ul{
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .main-navigation ul li a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="brand-logo">
+                <!-- <img src="#" alt="brand Logo"> -->
+                <p class="brand-title">Brand</p>
+            </div>
+
+            <div class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="#" class="home" id="#home">Home</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="service" id="#service">Service</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sortfolio" id="#sortfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" class="contacts" id="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
