@@ -89,3 +89,4 @@ Learn More about css
 4. [w3school CSS](https://www.w3schools.com/css/default.asp)
 5. [Joshw Comeau's CSS Hacks Blog Posts](https://www.joshwcomeau.com/)
 6. [CSS Tricks](https://css-tricks.com/)
+7. [GUI Challenges | Google Crome Developer](https://youtube.com/playlist?list=PLNYkxOF6rcIAaV1wwI9540OC_3XoIzMjQ)
