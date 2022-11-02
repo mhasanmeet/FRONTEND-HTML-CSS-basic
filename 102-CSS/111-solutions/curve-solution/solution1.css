@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    bottom: 5rem;
+    width: 100%;
+    height: 40rem;
+    background: radial-gradient(110% 50% at bottom, transparent 50%, lightblue 51%);
+}
+
+.container::after{
+    content: "";
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    height: 40rem;
+    background: radial-gradient(110% 50% at top, transparent 50%, lightblue 51%);
+} 
