@@ -5,85 +5,71 @@
 <details>
   <summary>HTML Best practice</summary>
   
-* BEM (Block Element Modifier)
-* Semantic HTML
-* HTML Best practice by Kyo Nagashima, check [HTML Best Practice](https://github.com/hail2u/html-best-practices)
+	* BEM (Block Element Modifier)
+	* Semantic HTML
+	* HTML Best practice by Kyo Nagashima, check [HTML Best Practice](https://github.com/hail2u/html-best-practices)
 
 </details>
 
 <details>
-  <summary>HTML topics</summary>
+  <summary>HTML Important topics</summary>
 
-* HTML Form
-* HTML Attributes
-* HTML tag Elements
-	* Block & inline elements
-	* meta tags
-	* self closing elements
-* HTML Inputs
+	* HTML Form
+	* HTML Attributes
+	* HTML tag Elements
+		* Block & inline elements
+		* meta tags
+		* self closing elements
+	* HTML Inputs
 	
 </details>
 
 ###  CSS : Cascading Style Sheets
 
 <details>
-  <summary>The Important Cascade Algorithm</summary>
+  <summary>The Importance of Cascade Algorithm</summary>
 
-* CSS Execution Order
-* CSS Combinators
-* CSS Inheritance
+	* CSS Execution Order
+	* CSS Combinator
+	* CSS Inheritance
 	
 </details>
 
 <details>
   <summary>Important Topics</summary>
 
-* CSS Selectors
-* CSS position
-* Flexbox
-* Z-index (content position)
-* Margin, Padding
-* Overflow
-* CSS Shadows
-* CSS function
+	* Margin, Padding
+	* Units
+		* Color Units
+		* Size Units
+	* CSS Selectors
+	* CSS position
+	* FlexBox
+	* Z-index (content position)
+	* Overflow
+	* CSS Shadows
+	* CSS functions
+	* Media Queries
+	* Pseudo Codes
 	
 </details>
 
 <details>
   <summary>Topics for Efficient CSS coding</summary>
 
-* CSS Shorthands
-* CSS Pseudo Code (Class & Elements)
-* CSS custom Properties: CSS root
-* CSS Custom Properties: CSS variable
-* CSS Custom Properties: CSS Reset
-* CSS Custom Properties: normalize.css
-* CSS Breakpoints
-* Units
-	* Color Units
-	* Size Units
-	
+	* CSS Shorthands
+	* CSS custom Properties: CSS root & Variables
+	* CSS Custom Properties: CSS Reset
+	* CSS Media Queries Breakpoints
+	* CSS Best Practices
+	* CSS preprocessor : SASS, SCSS
+	* CSS In JS
+
 </details>
 
-<details>
-  <summary>More to cover</summary>
-
-* CSS Preprocessor
-    * SCSS
-	* LESS
-* CSS Framework
-	* Bootstrap
-	* Tailwind
-* CSS Normalize
-* CSS in JS
-	
-</details>
-
-### Web Accessibility
 ### Folder Structure
 
 1. <a href="https://github.com/mhasanmeet/FRONTEND-HTML-CSS-basic/files/9166774/a.HTM-CSS-Basic.zip"> Download a. HTML & CSS Basic ↓</a>
-### Boilerplate
 
 ### Resources 
 
