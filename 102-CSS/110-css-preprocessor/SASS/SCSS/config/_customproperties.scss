@@ -1,0 +1,80 @@
+//google font api
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root{
+
+    /* Color */
+    --color-primary: hsl(71, 86%, 70%);
+    --color-secondary: hsla(71, 87%, 71%, 0.8);
+    --color-background-white: hsl(0, 0%, 100%);
+    --color-text-primary: hsl(0, 0%, 28%);
+    --color-text-secondary: hsl(0, 0%, 37%);
+    --color-black-medium: hsla(0, 0%, 37%, 0.6);
+    --color-black-dim: hsl(0, 0%, 73%);
+
+    /* box Shadow */
+    --box-shadow-1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    --box-shadow-2: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    --box-shadow-3: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    /* Gradient-color */
+    --linear-gradient: conic-gradient(from -270deg at 50% -5%, yellow, yellowgreen);
+
+    /* font */
+    --font-jakarta: "Plus Jakarta Sans";
+
+    /* font weight */
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+
+    /* font sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 0.938rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 3rem;
+    --font-size-5xl: 4rem;
+}
+
+*,::before,::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font-jakarta);
+    font-size: var(--font-size-md);
+    background-color: var(--color-background-white);
+    color: var(--color-text-primary);
+    transition: .5s; // For animation dark mode
+}
+
+h1,h2,h3{
+    font-weight: var(--fw-600);
+    color: var(--color-text-primary);
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

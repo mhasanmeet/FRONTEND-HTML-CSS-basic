@@ -1,0 +1,25 @@
+@use '../mediaqueries' as media;
+
+//Reuseable css classes
+.section{
+    padding: 4.5rem 0 1rem;
+    
+    &__title, &__title-center{
+    }
+}
+
+// Layout
+.container{
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    @include media.breakpoints-up(large){
+        margin-inline: auto;
+    }
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}

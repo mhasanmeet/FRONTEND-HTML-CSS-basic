@@ -1,0 +1,30 @@
+@use '../mediaqueries' as media;
+
+.review{
+    
+    .container{
+        
+    }
+
+    //mobile to tablet screen
+    @include media.breakpoints-down(small){
+        // media queries code here
+    }
+
+    @include media.breakpoints-down(medium){
+        // media queries code here
+    }
+
+    //small laptop to big screen
+    @include media.breakpoints-up(large){
+        // media queries code here
+    }
+
+    @include media.breakpoints-up(xLarge){
+        // media queries code here
+    }
+
+    @include media.breakpoints-up(xxLarge){
+        // media queries code here
+    }
+}
