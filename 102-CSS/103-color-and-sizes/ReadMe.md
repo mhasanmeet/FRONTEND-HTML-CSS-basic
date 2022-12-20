@@ -161,3 +161,7 @@ Use of hsl color
 
 > A smart box Shadow Generator [Link](https://www.joshwcomeau.com/shadow-palette/)
 
+## Read 
+
+- [A look at HSL colors](https://dev.to/dailydevtips1/a-look-at-hsl-colors-3c47)
+
