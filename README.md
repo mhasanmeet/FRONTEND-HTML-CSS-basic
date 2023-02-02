@@ -5,22 +5,22 @@
 <details>
   <summary>HTML Best practice</summary>
   
-* BEM (Block Element Modifier)
-* Semantic HTML
-* HTML Best practice by Kyo Nagashima, check [HTML Best Practice](https://github.com/hail2u/html-best-practices)
+  * BEM (Block Element Modifier)
+  * Semantic HTML
+  * HTML Best practice by Kyo Nagashima, check [HTML Best Practice](https://github.com/hail2u/html-best-practices)
 
 </details>
 
 <details>
   <summary>HTML Important topics</summary>
 
-* HTML Form
-* HTML Attributes
-* HTML tag Elements
-	* Block & inline elements
-	* meta tags
-	* self closing elements
-* HTML Inputs
+  * HTML Form
+  * HTML Attributes
+  * HTML tag Elements
+    * Block & inline elements
+    * meta tags
+    * self closing elements
+  * HTML Inputs
 	
 </details>
 
@@ -29,41 +29,41 @@
 <details>
   <summary>The Importance of Cascade Algorithm</summary>
 
-* CSS Execution Order
-* CSS Combinator
-* CSS Inheritance
+  * CSS Execution Order
+  * CSS Combinator
+  * CSS Inheritance
 	
 </details>
 
 <details>
   <summary>Important Topics</summary>
 
-* Margin, Padding
-* Units
-	* Color Units
-	* Size Units
-* CSS Selectors
-* CSS position
-* FlexBox
-* Z-index (content position)
-* Overflow
-* CSS Shadows
-* CSS functions
-* Media Queries
-* Pseudo Codes
+  * Margin, Padding
+  * Units
+    * Color Units
+    * Size Units
+  * CSS Selectors
+  * CSS position
+  * FlexBox
+  * Z-index (content position)
+  * Overflow
+  * CSS Shadows
+  * CSS functions
+  * Media Queries
+  * Pseudo Codes
 	
 </details>
 
 <details>
   <summary>Topics for Efficient CSS coding</summary>
 
-* CSS Shorthands
-* CSS custom Properties: CSS root & Variables
-* CSS Custom Properties: CSS Reset
-* CSS Media Queries Breakpoints
-* CSS Best Practices
-* CSS preprocessor : SASS, SCSS
-* CSS In JS
+  * CSS Shorthands
+  * CSS custom Properties: CSS root & Variables
+  * CSS Custom Properties: CSS Reset
+  * CSS Media Queries Breakpoints
+  * CSS Best Practices
+  * CSS preprocessor : SASS, SCSS
+  * CSS In JS
 
 </details>
 
