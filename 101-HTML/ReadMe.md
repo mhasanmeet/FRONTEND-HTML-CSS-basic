@@ -20,4 +20,5 @@
 * [Layout generator](https://codepen.io/jipdev/pen/ZEJOWjP)
 * [HTML, CSS & Meta tag generator](https://webcode.tools/generators/robots-txt)
 * [HTML & CSS online editor](https://html-css-js.com/)
+* [HTML5 boilerplate](https://github.com/h5bp/html5-boilerplate)
 
