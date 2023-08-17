@@ -35,4 +35,5 @@
 
 ```
 
+* Clip path making website [Clippy](https://bennettfeely.com/clippy/)
 * Clip path making by Figma & make animate
