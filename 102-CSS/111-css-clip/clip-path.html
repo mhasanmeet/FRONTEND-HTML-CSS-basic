@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Clip Path</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: blueviolet; 
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            transition: 2s;
+        }
+
+        .container:hover{
+            clip-path: polygon(40% 0%, 35% 61%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            transition: 2;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+    </div>
+
+</body>
+</html>
