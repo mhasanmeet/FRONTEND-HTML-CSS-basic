@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Field Styling</title>
+    <style>
+        input{
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+        }
+
+        input:focus{
+            color: red;
+            outline: 1px solid red;
+            border: none;
+        }
+
+        input:focus::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="search" placeholder="Search.....">
+    </div>
+</body>
+</html>

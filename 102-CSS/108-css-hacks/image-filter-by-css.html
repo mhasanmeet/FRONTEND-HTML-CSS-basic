@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filter By CSS</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        img{
+            width: 50%;
+            height: 80%;
+            object-fit: cover;
+        }
+
+        .brightness{
+            /* This is really helpful, instead background overlay, we can use this property 
+            for image brightness reduce */
+
+            filter: brightness(50%);
+        }
+
+        .drop-shadow{
+            filter: drop-shadow(16px 16px 30px #73E7F2);
+        }
+
+        .contrast{
+            filter: contrast(50%);
+        }
+
+        .grayscale{
+            filter: grayscale(50%);
+        }
+
+        .hue-rotate{
+            filter: hue-rotate(45deg);
+        }
+
+        .invert{
+            /* invert value range is (0.00 - 5.00) & (5.00 - 9.99) */
+            filter: invert(0.80);
+        }
+
+        .opacity{
+            /* Opacity range is from (0.1 - 1), like 0.3, 0.2, 0.7 */
+            filter: opacity(.1);
+        }
+
+        .saturate{
+            /* Saturate use to increase color brightness */
+            filter: saturate(200%);
+        }
+
+        .sepia{
+            /* Sepia use for vintage look of image */
+            filter: sepia(200%); 
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="brightness" src="./images/blue-image.jpg" alt="">
+        <p>Brightness Reduced</p>
+    </div>
+
+    <div class="container">
+        <img class="drop-shadow" src="./images/blue-image.jpg" alt="">
+        <p>background Drop Shadow by Color code</p>
+    </div>
+
+    <div class="container">
+        <img class="contrast" src="./images/blue-image.jpg" alt="">
+        <p>Image contrast balancing</p>
+    </div>
+
+    <div class="container">
+        <img class="grayscale" src="./images/blue-image.jpg" alt="">
+        <p>Use grayscale</p>
+    </div>
+
+    <div class="container">
+        <img class="hue-rotate" src="./images/blue-image.jpg" alt="">
+        <p>Hue Rotated</p>
+    </div>
+
+    <div class="container">
+        <img class="invert" src="./images/blue-image.jpg" alt="">
+        <p>Image color inverted</p>
+    </div>
+    
+    <div class="container">
+        <img class="opacity" src="./images/blue-image.jpg" alt="">
+        <p>By Opacity we reduce image visible</p>
+    </div>
+
+    <div class="container">
+        <img class="saturate" src="./images/blue-image.jpg" alt="">
+        <p>Saturate use to increase color brightness</p>
+    </div>
+
+    <div class="container">
+        <img class="sepia" src="./images/blue-image.jpg" alt="">
+        <p>Sepia use for vintage look of image</p>
+    </div>
+</body>
+</html>

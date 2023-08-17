@@ -48,6 +48,8 @@ sample code
 
 🔴 Video Source — [video](https://www.youtube.com/watch?v=OqLquBs-bEg)
 
+## :is, :where, :not pseudo classes
+
 
 
 
