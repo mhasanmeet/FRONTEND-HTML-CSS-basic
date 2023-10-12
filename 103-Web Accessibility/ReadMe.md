@@ -10,6 +10,10 @@ Web Accessibility is one of the most important feature to have in a website. Web
 4. Speech
 5. Visual
 
+## HTML Accessibility features
+
+1. Tabindex: Make HTML elements focusable, allow or prevent them from being sequentially focusable
+
 
 ### Related Articles 
 
