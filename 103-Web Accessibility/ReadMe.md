@@ -8,11 +8,24 @@ Web Accessibility is one of the most important feature to have in a website. Web
 2. Cognitive, learning and neurological
 3. Physical
 4. Speech
-5. Visual
+5. Visual: Low vision, Blindness, high myopia, color blindness etc
 
 ## HTML Accessibility features
 
 1. Tabindex: Make HTML elements focusable, allow or prevent them from being sequentially focusable
+2. Visible Focus Ring. Ensuring focus ring outline is clearly visible when needed.
+
+## Other cautions
+
+* Sufficient Contrast, Using contrast checkers to ensure sufficient color contrast.
+* Not Relying on Color Only, Ensuring that no information is conveyed by color alone.
+
+## Accessibility Testing tools 
+
+* [Accessibility Labs](https://assistivlabs.com/)
+* [Axe accessibility testing tools](https://www.deque.com/axe/)
+* [Guidepup Screen reader driver for test automation](https://www.guidepup.dev/)
+* [Google lighthouse accessibility tool](https://developer.chrome.com/docs/lighthouse/accessibility/)
 
 
 ### Related Articles 
