@@ -40,6 +40,7 @@
 	* Tailwind
 * CSS Normalize
 * CSS in JS
+* CSS Animation
 
 ### CSS organizing
 

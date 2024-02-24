@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+        .shape {
+            height: 150px;
+            width: 91%;
+            max-width: 100%;
+            overflow: hidden;
+            background: url('./shape.svg') no-repeat;
+        }
+
+        .shape span {
+            position: absolute;
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            opacity: 0;
+            offset-path: path(
+                "M40 109.98C129.704 60.7615 219.407 35.03 285.972 40.7985C352.537 46.5671 395.963 83.8356 467.778 96.7013C539.593 109.567 639.796 98.03 740 86.493"
+            );
+            animation: shape 6s infinite linear forwards;
+        }
+
+        @keyframes shape {
+            0% {
+                opacity: 0;
+                offset-distance: 0%;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            90% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                offset-distance: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="shape"> <span></span> </div>
+
+</body>
+</html>

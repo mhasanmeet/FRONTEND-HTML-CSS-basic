@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #offsetElement {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            offset: path("M 100 100 L 300 100 L 200 300 z") auto;
+            animation: move 3s linear infinite;
+        }
+        
+        @keyframes move {
+            from {
+                offset-distance: 0%;
+        }
+
+            to {
+                offset-distance: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="offsetElement"></div>
+</body>
+</html>
