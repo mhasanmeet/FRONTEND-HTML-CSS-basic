@@ -1,4 +1,4 @@
-# HTML Best Practice
+# HTML Best Practices
 
 1. Always use standard Semantic HTML
 2. Use figure & figcaption element for image content

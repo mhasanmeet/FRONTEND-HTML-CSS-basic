@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Best Practice</title>
+    <!-- Begin work on certain resources early to improve performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
+    <link rel="preload" href="picture.jpg" />
+</head>
+<body>
+    
+    <!-- Semantic HTML -->
+    <header>
+        <!-- Header content -->
+    </header>
+
+    <main>
+        <section>Content</section>
+        <section>Content</section>
+    </main>
+
+    <footer>
+        Contents
+    </footer>
+
+    <!-- Use Figure Block for Image Content -->
+    <figure>
+        <img src="#" alt="Image description" loading="lazy">
+        <figcaption>
+            <p>This is the caption of the image</p>
+        </figcaption>
+    </figure>
+
+    <!-- Careful about Inline & Block element hierarchy -->
+    <h2>
+        <a href="#">Hello World</a>
+    </h2>
+    
+    <!-- use <strong> or <em> or css instead of <b> & <i> -->
+    <strong>
+        <em>Hello World</em>
+    </strong>
+
+    <!-- use descriptive link -->
+    <p>if you want to contact with use.
+        <a href="contact.html">
+            Here you can
+        </a>
+    </p>
+
+    <!-- <model> for AR/VR/3D content: Allows embedding 3D graphical content into HTML. -->
+    <model src="3d-assets/car"></model> 
+
+    <!-- iframe with Lazy Loading -->
+    <iframe src="example.html" loading="lazy"></iframe>
+
+    <!-- fetchpriority attribute: Allows specifying a hint to help the browser prioritize fetching various resources.-->
+    <img src="logo.svg" fetchpriority="high" />
+
+    <!-- controlslist attribute: Prevent certain controls from appearing in the toolbar of a media element. -->
+    <video src="fun.mp4" controlslist="nodownload"></video>
+
+    <!-- blocking="render": Specify that resources (scripts, stylesheets etc) should block rendering until loaded. -->
+    <script blocking="render" async src="async-script.js"></script>
+</body>
+</html>
