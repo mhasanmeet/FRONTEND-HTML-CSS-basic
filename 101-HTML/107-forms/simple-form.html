@@ -10,13 +10,15 @@
         }
 
         form{
-            height: 100vh;
             width: 20%;
             margin-inline: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 1rem;
+            padding: 3rem 0;
+            overflow: scroll;
+            scrollbar-width: none;
         }
 
         .form-group{
@@ -29,8 +31,18 @@
             width: 100%;
             height: 2rem;
             font-size: .8rem;
-            color: rgb(131, 131, 131);
+            color: rgb(14, 14, 14);
             text-indent: .5rem;
+        }
+
+        input:invalid{
+            border: 2px solid red;
+            background-color: beige;
+        }
+
+        input:valid{
+            border: 2px solid rgba(0, 168, 11, 0.94);
+            background-color: rgb(245, 255, 249);
         }
 
         small{
@@ -39,7 +51,7 @@
 
         .btn{
             width: 100%;
-            height: 2.5rem;
+            padding: .8rem 0;
             border: none;
             background: lightblue;
             font-size: 1rem;
@@ -50,24 +62,47 @@
         .required{
             color: red;
         }
+
+        .fb{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
     </style>
 </head>
 <body>
 
-    <form action="#" method="POST">
+    <form action="#" method="POST" oninput="feedbackValue.value = feedback.valueAsNumber">
+        <!-- Name -->
         <div class="form-group">
             <label for="text">🤵 Name <span class="required">*</span> </label>
-            <input type="text" name="name" required value="Mahmudul Hasan" placeholder="Enter Your Name" autocomplete="name">
+            <input 
+                required
+                type="text" 
+                name="name" 
+                value="Mahmudul Hasan" 
+                placeholder="Enter Your Name" 
+                autocomplete="name"
+                maxlength="50">
         </div>
 
+        <!-- Email -->
         <div class="form-group">
             <label for="email">📧 Email <span class="required">*</span> </label>
-            <input type="email" name="email" required value="email@mail.com" placeholder="Enter Your email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
+            <input 
+                required
+                type="email" 
+                name="email"  
+                value="email@mail.com" 
+                placeholder="Enter Your email" 
+                pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                title="Enter Email Address">
         </div>
 
-        <!-- datalist: Method of providing a list of presets for a user to select in a form control, while still allowing custom options. -->
+        <!-- Country -->
         <div class="form-group">
             <label for="country">🏴 Country <span class="required">*</span></label>
+            <!-- datalist: Method of providing a list of presets for a user to select in a form control, while still allowing custom options. -->
             <input name="country" name="country" list="countries" placeholder="Country">
             <datalist id="countries">
                 <option>Afghanistan</option>
@@ -75,15 +110,58 @@
             </datalist>
         </div>
 
+        <!-- Telephone -->
+         <div class="form-group">
+            <label for="phone">Phone Number <span class="required">*</span></label>
+            <input 
+                required
+                type="tel" 
+                name="phone"  
+                value="+88 019 10101010" 
+                placeholder="Enter Your Phone" 
+                pattern="+8801[3-9]\d{8}"
+                title="Enter Your Phone Number">
+         </div>
+
+        <!-- Age -->
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" name="age" min="18" max="99">
+        </div>
+
+        <!-- Video File -->
         <div class="form-group">
             <label for="video">📸 Video file</label>
             <!-- capture: Capture input from the user’s camera. -->
             <input type="file" name="video" accept="video/*" capture>
         </div>
 
+        <!-- Postal Code -->
+        <div class="form-group">
+            <label for="postcode">Postal Code</label>
+            <input type="number" name="postcode" pattern="\d{4}" title="Enter your local postal/Zip code">
+        </div>
+
+        <!-- Feedback -->
+        <div class="form-group">
+            <label for="feedback" >Your Feedback</label>
+            <div class="fb">
+                <input name="feedback" type="range" step="1" min="0" max="10" value="1">  
+                <output name="feedbackValue" for="feedback">1</output>
+            </div>
+        </div>
+
+        <!-- Password -->
         <div class="form-group">
             <label for="password">🔐 Password <span class="required">*</span></label>
-            <input type="password" name="password" required placeholder="Enter Your password" pattern="[a-zA-Z0-9]{8,}" title="Must be at least 8 characters">
+            <input
+                required 
+                type="password" 
+                name="password" 
+                placeholder="Enter Your password" 
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                minlength="5" 
+                maxlength="15">
             <small class="input-hint"> Must be at least 8 characters</small>
         </div>
 
