@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faster Rendering with the content-visibility CSS Property</title>
+    <style>
+        .content-visibility-apply{
+            content-visibility: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        The content-visibility property accepts three main values:
+        * visible
+        * hidden
+        * auto (important)  
+    
+        "content-visibility" works best with content that:
+        * Is below the fold (not visible when the page first loads): For example, it's outside of the initial viewport
+        * Is self-contained (doesn't affect other parts of the page): For example, it doesn't change the layout when it's rendered, and doesn't have styles that affect other elements
+        * Has a substantial rendering cost (like complex layouts): For example, a long list of UI components, blog posts in a feed, a long comment thread, etc.
+
+        You should be careful when using content-visibility because it can have unintended consequences. 
+        Here are examples:
+        * Content in the initial viewport (what users see first): This feels like lazy loading your LCP image!
+        * Small elements with a minimal rendering cost: You should avoid premature optimization and only use content-visibility when it's effective
+        * Elements whose size might affect the page layout significantly: This can lead to unexpected results when the content is rendered
+    -->
+
+    <section>
+        <div class=""></div>
+    </section>
+
+    <section>
+        <div class="content-visibility-apply"></div>
+    </section>
+
+</body>
+</html>
