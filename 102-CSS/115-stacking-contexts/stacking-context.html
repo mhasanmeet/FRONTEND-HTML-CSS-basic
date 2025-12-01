@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stacking Context</title>
+  <style>
+    body{
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- 
+    Here's a question with a surprisingly-complex answer: 
+    how does the browser decide which element to render "on top" when elements overlap?
+
+    It depends on the layout mode!
+
+    In Flow layout, elements don't overlap much, but we can force it with negative margin:
+  -->
+  <style>
+      .box {
+        width: 50px;
+        height: 50px;
+        border: 3px solid;
+        background: silver;
+      }
+
+      .second.box {
+        margin-top: -30px;
+        margin-left: 20px;
+        background: hotpink;
+      }
+  </style>
+  <div class="container">
+      <div class="first box"></div>
+      <div class="second box"></div>
+  </div>
+  <!-- 
+    In this case, the DOM order matters. The pink box comes after the silver box in the DOM, 
+    and so it's painted on top.
+
+    There is one catch, though: in Flow layout, content is painted separately from the background.
+
+    Check out what happens if we add some text to these boxes:
+  -->
+
+
+  <hr>
+
+  <!-- 
+    In Flow layout, background colors and borders are truly meant to be in the background. 
+    The content will float on top. That's why the letter A shows up on top of the pink box.
+
+    The truth is that Flow layout isn't really built with layering in mind. 
+    Most of the time, when we want to layer elements, we'll want to use positioned layout.
+
+    Check out what happens if we add relative positioning to the silver box:
+  -->
+  <style>
+    .box {
+      text-align: center;
+    }
+  
+    .second.box {
+      margin-top: -30px;
+      margin-left: 20px;
+      background: hotpink;
+    }
+  </style>
+  <div class="container">
+    <div class="first box">A</div>
+    <div class="second box">A</div>
+  </div>
+
+</body>
+</html>
