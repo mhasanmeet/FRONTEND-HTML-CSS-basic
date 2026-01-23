@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Truncate</title>
+  <style>
+    .truncate-section{
+      width: 100%;
+    }
+    .truncate {
+      width: 20%;
+      font-size: 20px;
+      margin: 20px auto;
+      background-color: rgb(213, 214, 255);
+      padding: 10px;
+      border-radius: 5px;
+      color: rgb(38, 39, 61);
+      font-family: Verdana;
+      border: 2px solid rgb(38, 39, 61);
+      line-height: 1.9;
+
+      /* Truncate CSS */
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+
+      /* Truncate Line number */
+      -webkit-line-clamp: 5;
+    }
+  </style>
+</head>
+<body>
+  <section class="truncate-section">
+    <h2 class="title-center">Truncate Text after any line number</h2>
+  
+    <p class="truncate">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus
+      soluta dolores cupiditate minima officiis natus iste ad,
+      nobis molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus
+      soluta dolores cupiditate minima officiis natus iste ad,
+      nobis molestias.
+    </p>
+  </section>
+</body>
+</html>
