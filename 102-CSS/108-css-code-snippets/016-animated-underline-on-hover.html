@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Underline on Hover with CSS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    section {
+      width: 600px;
+      margin-inline: auto;
+      padding: 2rem 0;
+    }
+
+    ul {
+      display: flex;
+      gap: 1rem;
+      margin: 2rem 0
+    }
+
+    ul li {
+      list-style: none;
+      cursor: pointer;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      top: 0;
+      bottom: -4px;
+      background-image: linear-gradient(90deg, rgb(255, 0, 0), rgb(40, 0, 240));
+      background-size: 0 2.5px;
+      background-repeat: no-repeat;
+      background-position: 10px bottom;
+      /* background-position: center bottom; */
+      transition: background-size .3s ease-in;
+    }
+
+    ul li:hover::before {
+      background-size: 80% 2.5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <h1>Animated Underline on Hover with CSS</h1>
+
+    <ul>
+      <li>Link Number One</li>
+      <li>Link Number One</li>
+      <li>Link Number One</li>
+    </ul>
+  </section>
+
+</body>
+
+</html>
