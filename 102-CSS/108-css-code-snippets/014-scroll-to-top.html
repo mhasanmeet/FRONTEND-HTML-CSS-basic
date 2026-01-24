@@ -1,11 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scroll To Top</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      font-size: 22px;
+    }
+
+    body {
+      margin: 1rem 0;
+      position: relative;
+    }
+
+    section {
+      width: 700px;
+      margin-inline: auto;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    .top {
+      position: sticky;
+      bottom: 20px;
+      left: 100vw;
+      background: rgb(255, 138, 138);
+      padding: 8px;
+      border: solid 1px;
+      cursor: pointer;
+    }
+  </style>
 </head>
+
 <body>
-  
-</body>
+
+  <section>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+    <h1>Heading Number One</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio eos dolores fuga, natus
+      libero fugit reiciendis officia repellat, rerum soluta provident tempore, sunt inventore
+      temporibus voluptate totam voluptatibus et.
+    </p>
+
+    <button class="top">Scroll back to Top</button>
+  </section>
+
+  <script>
+
+    let scrollToTopBtn = document.querySelector('.top');
+
+    // Scroll to top
+    scrollToTopBtn.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }, false);
+
+    // Hide/show button based on scroll position
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > window.innerHeight) {
+        scrollToTopBtn.style.display = 'block';
+      } else {
+        scrollToTopBtn.style.display = 'none';
+      }
+    });
+  </script>
+
 </html>
