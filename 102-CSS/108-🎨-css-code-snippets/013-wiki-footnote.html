@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highlighted Footnotes like Wikipedia with CSS</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      width: 800px;
+      margin-inline: auto;
+    }
+
+    .content, .footnote{
+      padding: 2rem 0;
+    }
+
+    .footnote ol{
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: .3rem;
+    }
+
+    h1{
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    a, a:visited {
+      color: firebrick;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    :target {
+      background: #ccc;
+      border: solid 1px #aaa;
+      transition: all .8s;
+    }
+  </style>
+</head>
+<body>
+  
+  <section class="content">
+    <h1>Highlighted Footnotes like Wikipedia using CSS</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea assumenda harum est nihil
+      culpa numquam nesciunt dolor maxime debitis quasi eius ut saepe sunt id exercitationem<sup><a href="#one" id="cite-1">[1]</a></sup>
+      earum fugiat minima adipisci rem eaque quia, quibusdam quidem sequi! Eum animi ratione
+      corrupti maiores, nulla culpa placeat, hic quibusdam iure quia repellat rerum exercitationem.
+      Optio placeat ea nemo<sup><a href="#two" id="cite-2">[2]</a></sup>, mollitia excepturi, eius eveniet laudantium, repudiandae perspiciatis
+      aperiam vero corrupti quos pariatur? Quo pariatur sequi vero suscipit doloremque
+      dignissimos fugit mollitia commodi! Vitae quas quia reiciendis alias aut voluptates saepe
+      voluptatibus quos pariatur molestiae reprehenderit, ut incidunt suscipit mollitia rem nobis
+      ad? Vel, error corporis!
+    </p>
+  </section>
+
+  <section class="footnote">
+    <h2>Footnote Reference</h2>
+    <ol>
+      <li id="one"><a href="#cite-1">↑</a> World Health Organization. “Dengue and Severe Dengue.” WHO, 14 Feb. 2022,
+      https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue. Accessed 19 Nov. 2022.</li>
+      <li id="two"><a href="#cite-2">↑</a> World Health Organization. “Dengue and Severe Dengue.” WHO, 14 Feb. 2022,
+      https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue. Accessed 19 Nov. 2022.</li>
+    </ol>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Content Center</title>
+    <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .title{
+            text-align: center;
+        }
+
+        /* Make center By Transform Translate*/
+        .center1{
+            background: lightsalmon;
+            height: 100vh;
+        }
+
+        .center1__content{
+            background: lightcyan;
+            padding: 20px;
+            width: 20%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Make center By Flexbox*/
+        .center2{
+            background: lightblue;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center2__content{
+            width: 20%;
+            background-color: azure;
+            padding: 20px;
+        }
+
+        /* Make center By Grid*/
+        .center3{
+            background: lightpink;
+            height: 100vh;
+            display: grid;
+            place-content: center;
+        }
+
+        .center3__content{
+            display: grid;
+            height: 100px;
+            width: 500px;
+            place-content: center;
+            background-color: azure;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- make things center -->
+    <h1 class="title">Make things center</h1>
+
+    <section class="center1">
+        <p class="center1__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus 
+            soluta dolores cupiditate minima officiis natus iste ad, 
+            nobis molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus 
+            soluta dolores cupiditate minima officiis natus iste ad, 
+            nobis molestias.
+        </p>
+    </section>
+
+    <section class="center2">
+        <p class="center2__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus 
+            soluta dolores cupiditate minima officiis natus iste ad, 
+            nobis molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus 
+            soluta dolores cupiditate minima officiis natus iste ad, 
+            nobis molestias.
+        </p>
+    </section>
+
+    <section class="center3">
+        <p class="center3__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus 
+            soluta dolores cupiditate minima officiis natus iste ad, 
+            nobis molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus 
+            soluta dolores cupiditate minima officiis natus iste ad, 
+            nobis molestias.
+        </p>
+    </section>
+    
+</body>
+</html>

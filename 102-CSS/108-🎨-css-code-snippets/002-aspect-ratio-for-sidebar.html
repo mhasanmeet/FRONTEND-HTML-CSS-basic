@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Aspect Ratio</title>
+</head>
+    <style>
+        .box1{
+            background: lightgreen;
+            width: 10rem;
+            
+            aspect-ratio: 1 ; /* Give us a square box */
+        }
+
+        .box2{
+            background: lightseagreen;
+            width: 10rem;
+            
+            aspect-ratio: 6 / 2;
+        }
+
+        .box3{
+            background: lightgray;
+            width: 10rem;
+            
+            aspect-ratio: 1 / 4;
+        }
+    </style>
+<body>
+    <p class="box1">Hello</p>
+    <p class="box2">Hello</p>
+    <p class="box3">Hello</p>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disable Right-Click with JavaScript</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    section {
+      width: 700px;
+      margin-inline: auto;
+      padding: 2rem 0;
+    }
+
+    .message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+      z-index: 9999;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h1>Header Number One</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quisquam aut, sapiente reprehenderit perferendis
+      maiores error culpa atque quos quaerat?</p>
+    <ul>
+      <li>Hello World</li>
+      <li>Hello World</li>
+      <li>Hello World</li>
+      <li>Hello World</li>
+    </ul>
+    <input type="text" class="date">
+  </section>
+
+  <div class="message">Right-click is disabled</div>
+
+  <script>
+    let message = document.querySelector('.message');
+      
+    window.addEventListener('contextmenu', function (e) {
+      message.style.display = 'block';
+      setTimeout(() => message.style.display = 'none', 2000);
+      e.preventDefault();
+    }, false)
+  </script>
+</body>
+
+</html>

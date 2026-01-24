@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Perspective</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .frame{
+            width: 600px;
+            height: 600px;
+            border: 2px solid maroon;
+            perspective: 500px;
+        }
+
+        .shape{
+            width: 600px;
+            height: 600px;
+            background-color: chocolate;
+            /* transform: rotateX(45deg); */
+            transform: rotateY(45deg);
+            transition: .4s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="frame">
+        <div class="shape"></div>
+    </div>
+
+</body>
+</html>
